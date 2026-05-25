@@ -47,7 +47,8 @@ export const resolveImageUrl = (url: string | null | undefined, width?: number, 
   }
 
   // 3. Handle Relative Supabase Paths
-  const supabaseUrl = process.env.EXPO_PUBLIC_SUPABASE_URL || 'https://tbyudagfjspedeqtlgjv.supabase.co';
+  // const supabaseUrl = process.env.EXPO_PUBLIC_SUPABASE_URL || 'https://tbyudagfjspedeqtlgjv.supabase.co';
+  const supabaseUrl = process.env.EXPO_PUBLIC_SUPABASE_URL || 'https://qhrmzuwawmuxrnaqznva.supabase.co';
   if (!supabaseUrl || typeof url !== 'string') return { uri: url || '' };
 
   let filePath = url;

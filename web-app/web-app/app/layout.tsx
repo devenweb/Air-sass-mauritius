@@ -146,7 +146,7 @@ export default async function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.google-analytics.com" />
-        <link rel="dns-prefetch" href="https://tbyudagfjspedeqtlgjv.supabase.co" />
+        <link rel="dns-prefetch" href="https://qhrmzuwawmuxrnaqznva.supabase.co" />
         {/* Version: 1.1.1 - Travel Lounge 2026 Restore (2026-05-14) */}
       </head>
       <body className={font.className}>
