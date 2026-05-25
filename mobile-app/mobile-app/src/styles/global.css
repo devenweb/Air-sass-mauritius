@@ -1,0 +1,11 @@
+/* Mobile Global CSS - Used for Web version and NativeWind if enabled */
+:root {
+  --primary: #f97316;
+  --secondary: #0f172a;
+  --background: #ffffff;
+}
+
+.safe-area {
+  flex: 1;
+  background-color: white;
+}

@@ -1,0 +1,40 @@
+# Travel Lounge - Mauritius Premier Boutique Travel Agency
+
+> Your Gateway to Extraordinary Journeys.
+
+Travel Lounge is a leading boutique travel agency in Mauritius, offering luxury hotel bookings, exclusive cruises, guided world tours, and bespoke travel packages.
+
+## Primary Services
+
+- **Hotels**: Luxury resorts and beachfront accommodations in Mauritius and internationally.
+- **Cruises**: Premium sea voyages across the Indian Ocean and beyond.
+- **Tours**: Expertly guided group tours across Africa, Asia, and Europe.
+- **Activities**: Unique island experiences, from helicopter tours to underwater adventures.
+- **Day Packages**: All-inclusive catamaran and land-based day trips.
+
+## Contact Information
+
+- **Address**: Travel Lounge, Port Louis, Mauritius
+- **Phone**: +230 212 4070
+- **Website**: https://travellounge.mu
+- **Email**: info@travellounge.mu
+
+## Entity Information
+
+- **Organization Name**: Travel Lounge
+- **Location**: Mauritius
+- **Category**: Travel & Tourism
+- **Specialties**: Boutique Concierge, Luxury Stays, Bespoke Itineraries.
+
+## Site Structure
+
+- /hotels - Hotel listings and bookings
+- /tours - Guided group tours
+- /activities - Mauritius island activities
+- /cruises - Cruise packages
+- /packages - Day packages and deals
+- /about - Company history and mission
+- /contact - Inquiry forms and location
+
+---
+Copyright 2026 Travel Lounge. All rights reserved.

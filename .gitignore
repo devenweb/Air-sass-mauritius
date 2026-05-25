@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Local Environment files (Contains keys and secrets)
+.env*
+**/.env*
+
+# Vercel deployment folder
+.vercel/
+**/.vercel/
+
+# Next.js build output
+.next/
+**/.next/
+
+# Expo build output & cache
+.expo/
+**/.expo/
+web-build/
+**/web-build/
+expo-env.d.ts
+**/expo-env.d.ts
+
+# Production builds
+dist/
+**/dist/
+build/
+**/build/
+bin/
+**/bin/
+out/
+**/out/
+
+# IDE files
+.vscode/
+**/.vscode/
+.idea/
+**/.idea/
+*.swp
+*.swo
+.eslintcache
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+Thumbs.db
+*.pem
+
+# Keys & Certificates (Mobile app)
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+eas-build-err.txt

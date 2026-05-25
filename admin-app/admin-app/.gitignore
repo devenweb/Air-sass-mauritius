@@ -1,0 +1,27 @@
+node_modules/
+.env*
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+__pycache__/
+*.swp
+.DS_Store
+.vercel
+dist/
+.next/
+scratch/
+build_output.txt
+
+# Database dumps
+/seed.sql
+
+# Runtime-generated / dev-only files (must not be committed)
+generated_titles.json
+titles.json
+agent.md
+
+# Root-level image artifacts
+team1.jpg

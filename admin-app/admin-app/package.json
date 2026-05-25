@@ -1,0 +1,46 @@
+{
+  "name": "admin-app",
+  "private": true,
+  "version": "1.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@supabase/supabase-js": "2.99.0",
+    "@tanstack/react-query": "5.90.21",
+    "clsx": "^2.1.1",
+    "dotenv": "^17.4.2",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "0.563.0",
+    "pg": "^8.21.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-quill-new": "^3.8.3",
+    "react-router-dom": "7.13.1",
+    "sanitize-html": "^2.17.3",
+    "sweetalert2": "11.26.22",
+    "tailwind-merge": "^3.5.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.39.4",
+    "@tailwindcss/vite": "4.2.1",
+    "@vitejs/plugin-react": "5.1.4",
+    "autoprefixer": "10.4.27",
+    "eslint": "9.39.4",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "7.0.1",
+    "eslint-plugin-unused-imports": "4.4.1",
+    "globals": "17.4.0",
+    "postcss": "8.5.8",
+    "tailwindcss": "4.2.1",
+    "vite": "7.3.1"
+  }
+}

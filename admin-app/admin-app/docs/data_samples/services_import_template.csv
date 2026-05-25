@@ -1,0 +1,4 @@
+name,service_type,price,description,location,region,duration_hours,duration_days,stock,status,image_url,amenities,featured
+"Grand Baie Catamaran Cruise",activity,2500,"A beautiful day cruise in the north of Mauritius.","Grand Baie","North",6,0,50,"In Stock","https://images.unsplash.com/photo-1544551763-46a013bb70d5","Sea Adventure, Catamaran, Lunch Included",true
+"7 Cascades Hiking",activity,1200,"Breathtaking waterfalls hiking experience.","Tamarin","West",4,0,20,"In Stock","https://images.unsplash.com/photo-1501785888041-af3ef285b470","Land Adventure, Hiking, Nature",false
+"Luxury Beach Resort Night",hotel,8500,"One night stay in a premium ocean view room.","Flic en Flac","West",null,1,10,"In Stock","https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9","Beachfront, Wifi, Pool",true

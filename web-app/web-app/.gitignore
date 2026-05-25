@@ -1,0 +1,93 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+.vercel
+
+# scratch files/directories
+/scratch/
+
+# Temporary pricing audit scripts
+scripts/analyze_pricing_validity.ts
+scripts/check_duplicates_in_seed.ts
+scripts/compare_flat_price.ts
+scripts/compare_occupancy_pricing.ts
+scripts/compare_production_pricing.ts
+scripts/count_pricing_rows.ts
+scripts/cross_verify_pricing.ts
+scripts/find_all_admin_backups.ts
+scripts/find_all_backups.ts
+scripts/find_duplicates_in_remote.ts
+scripts/find_pricing_in_admin_supabase.ts
+scripts/find_service_by_name.ts
+scripts/inspect_active_vs_duplicates.ts
+scripts/inspect_admin_pricing.ts
+scripts/inspect_all_service_pricing.ts
+scripts/inspect_backup_sql.ts
+scripts/inspect_comprehensive_pricing.ts
+scripts/inspect_paradise_cove.ts
+scripts/inspect_pricing_zero.ts
+scripts/inspect_remote_pricing.ts
+scripts/inspect_remote_zilwa.ts
+scripts/inspect_room_types_json.ts
+scripts/inspect_seed_sql.ts
+scripts/inspect_services_raw.ts
+scripts/inspect_services_raw_content.ts
+scripts/inspect_specific_comprehensive_id.ts
+scripts/inspect_specific_pricing.ts
+scripts/inspect_specific_services.ts
+scripts/inspect_tarisa.ts
+scripts/inspect_zero_services.ts
+scripts/missing_by_service.ts
+scripts/reconcile_and_report_pricing.ts
+scripts/reconcile_and_report_pricing_v2.ts
+scripts/reconcile_and_report_pricing_v3.ts
+scripts/reconcile_with_seed.ts
+scripts/search_comprehensive_backup.ts
+scripts/search_ids_in_admin.ts
+scripts/search_seed_sql.ts
+scripts/tarisa_valid_pricing.ts
+
+# Database dumps
+/seed.sql
+
+# Root-level image artifacts (media belongs in /public/assets/)
+team3.jpg
