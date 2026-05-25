@@ -39,7 +39,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title: seo.metaTitle || 'Royal Travel Agency | Your Gateway to Extraordinary Journeys',
       description: seo.metaDescription || 'Discover amazing hotels, cruises, tours, and travel experiences worldwide',
       keywords: seo.metaKeywords || 'travel, mauritius, holidays',
-      metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://travellounge.mu'),
+      metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://royaltravel.mu'),
       icons: {
         icon: '/assets/logo-red-bird.png',
         apple: '/assets/logo-red-bird.png',
@@ -84,13 +84,13 @@ export default async function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'ItemList',
     'itemListElement': [
-      { '@type': 'SiteNavigationElement', 'position': 1, 'name': 'Hotels', 'url': 'https://travellounge.mu/hotels' },
-      { '@type': 'SiteNavigationElement', 'position': 2, 'name': 'Tours', 'url': 'https://travellounge.mu/tours' },
-      { '@type': 'SiteNavigationElement', 'position': 3, 'name': 'Activities', 'url': 'https://travellounge.mu/activities' },
-      { '@type': 'SiteNavigationElement', 'position': 4, 'name': 'Cruises', 'url': 'https://travellounge.mu/cruises' },
-      { '@type': 'SiteNavigationElement', 'position': 5, 'name': 'Day Packages', 'url': 'https://travellounge.mu/packages' },
-      { '@type': 'SiteNavigationElement', 'position': 6, 'name': 'About Us', 'url': 'https://travellounge.mu/about' },
-      { '@type': 'SiteNavigationElement', 'position': 7, 'name': 'Contact', 'url': 'https://travellounge.mu/contact' }
+      { '@type': 'SiteNavigationElement', 'position': 1, 'name': 'Hotels', 'url': 'https://royaltravel.mu/hotels' },
+      { '@type': 'SiteNavigationElement', 'position': 2, 'name': 'Tours', 'url': 'https://royaltravel.mu/tours' },
+      { '@type': 'SiteNavigationElement', 'position': 3, 'name': 'Activities', 'url': 'https://royaltravel.mu/activities' },
+      { '@type': 'SiteNavigationElement', 'position': 4, 'name': 'Cruises', 'url': 'https://royaltravel.mu/cruises' },
+      { '@type': 'SiteNavigationElement', 'position': 5, 'name': 'Day Packages', 'url': 'https://royaltravel.mu/packages' },
+      { '@type': 'SiteNavigationElement', 'position': 6, 'name': 'About Us', 'url': 'https://royaltravel.mu/about' },
+      { '@type': 'SiteNavigationElement', 'position': 7, 'name': 'Contact', 'url': 'https://royaltravel.mu/contact' }
     ]
   }
 
@@ -98,9 +98,9 @@ export default async function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name: 'Royal Travel Agency',
-    image: 'https://travellounge.mu/assets/logo-red-bird.png',
-    '@id': 'https://travellounge.mu',
-    url: 'https://travellounge.mu',
+    image: 'https://royaltravel.mu/assets/logo-red-bird.png',
+    '@id': 'https://royaltravel.mu',
+    url: 'https://royaltravel.mu',
     telephone: '+230 212 4070',
     address: {
       '@type': 'PostalAddress',

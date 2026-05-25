@@ -5,12 +5,12 @@ export const metadata: Metadata = {
     title: '🌍 Exclusive Travel Packages Abroad | Royal Travel Agency',
     description: 'Explore the world with our curated international travel packages. From Dubai to Turkey, experience seamless luxury and adventure.',
     alternates: {
-        canonical: 'https://travellounge.mu/travel-packages',
+        canonical: 'https://royaltravel.mu/travel-packages',
     },
     openGraph: {
         title: 'Boutique Travel Abroad Packages | Royal Travel Agency',
         description: 'Luxury international stays and curated global experiences packed into perfect travel packages.',
-        url: 'https://travellounge.mu/travel-packages',
+        url: 'https://royaltravel.mu/travel-packages',
         type: 'website',
     }
 }
@@ -24,19 +24,19 @@ export default function TravelPackagesPage() {
                 '@type': 'ListItem',
                 position: 1,
                 name: 'Home',
-                item: 'https://travellounge.mu'
+                item: 'https://royaltravel.mu'
             },
             {
                 '@type': 'ListItem',
                 position: 2,
                 name: 'Travel Abroad',
-                item: 'https://travellounge.mu/travel-abroad'
+                item: 'https://royaltravel.mu/travel-abroad'
             },
             {
                 '@type': 'ListItem',
                 position: 3,
                 name: 'Travel Packages',
-                item: 'https://travellounge.mu/travel-packages'
+                item: 'https://royaltravel.mu/travel-packages'
             }
         ]
     }

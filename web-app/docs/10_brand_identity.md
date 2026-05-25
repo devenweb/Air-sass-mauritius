@@ -10,22 +10,22 @@ As of **May 12, 2026**, the corporate contact details have been standardized acr
 - **Primary WhatsApp/Mobile:** `+230 5509 7702`
 - **Secondary WhatsApp:** `+230 5940 7711`
 - **Office Direct Line:** `+230 212 4070`
-- **Email Support:** `reservation@travellounge.mu`
+- **Email Support:** `reservation@royaltravel.mu`
 
 ## 2. Dynamic Branding Logic
 The ecosystem supports multi-brand identity injection based on the service category:
 
 ### Standard Brand (Red Bird)
 - **Context:** Hotels, Flights, Packages, Cruises, Tours.
-- **Logo:** `https://travellounge.mu/assets/logo-red-bird.png`
+- **Logo:** `https://royaltravel.mu/assets/logo-red-bird.png`
 - **Primary Color:** `#DC2626` (Red)
-- **Support Email:** `reservation@travellounge.mu`
+- **Support Email:** `reservation@royaltravel.mu`
 
 ### Leisure & Tours Brand (Teal)
 - **Context:** Local Deals, Sea Activities, Land Activities.
-- **Logo:** `https://travellounge.mu/assets/logo-leisure.png`
+- **Logo:** `https://royaltravel.mu/assets/logo-leisure.png`
 - **Primary Color:** `#0F172A` (Navy/Slate) with Teal accents.
-- **Support Email:** `inbound@travellounge.mu`
+- **Support Email:** `inbound@royaltravel.mu`
 
 ## 3. Email Infrastructure Standards
 - **Footer Contact:** All transactional emails must include the standardized `+230 5509 7702` contact number.

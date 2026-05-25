@@ -152,7 +152,7 @@ export default function PrivacyPolicyPage() {
                             <div className="relative z-10">
                                 <h3 className="text-3xl font-black mb-4 leading-tight">Privacy <br />Concerns?</h3>
                                 <p className="text-slate-400 font-bold max-w-sm">
-                                    Email our Data Protection Officer at privacy@travellounge.mu for any queries.
+                                    Email our Data Protection Officer at privacy@royaltravel.mu for any queries.
                                 </p>
                             </div>
                             <a 

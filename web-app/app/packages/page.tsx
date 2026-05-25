@@ -5,12 +5,12 @@ export const metadata: Metadata = {
     title: '🌴 Mauritius Travel Packages: All-Inclusive Hotel & Activity Deals',
     description: 'Experience Mauritius with our curated travel packages. All-inclusive hotel stays, transfers, and curated excursions at the best fixed rates.',
     alternates: {
-        canonical: 'https://travellounge.mu/packages',
+        canonical: 'https://royaltravel.mu/packages',
     },
     openGraph: {
         title: 'Boutique Mauritius Travel Packages | Royal Travel Agency',
         description: 'Luxury hotel stays and curated island experiences packed into perfect travel packages.',
-        url: 'https://travellounge.mu/packages',
+        url: 'https://royaltravel.mu/packages',
         type: 'website',
     }
 }
@@ -24,13 +24,13 @@ export default function PackagesPage() {
                 '@type': 'ListItem',
                 position: 1,
                 name: 'Home',
-                item: 'https://travellounge.mu'
+                item: 'https://royaltravel.mu'
             },
             {
                 '@type': 'ListItem',
                 position: 2,
                 name: 'Packages',
-                item: 'https://travellounge.mu/packages'
+                item: 'https://royaltravel.mu/packages'
             }
         ]
     }

@@ -124,7 +124,7 @@ const CreateCustomer = () => {
                                             className="w-full pl-14 pr-6 py-4 bg-gray-50/50 border-2 border-slate-300 focus:border-brand-red/10 rounded-3xl focus:outline-none focus:ring-4 focus:ring-brand-red/5 transition-all font-bold text-gray-700 placeholder:text-gray-300"
                                             value={formData.email}
                                             onChange={handleInputChange}
-                                            placeholder="customer@travellounge.mu"
+                                            placeholder="customer@royaltravel.mu"
                                         />
                                     </div>
                                 </div>

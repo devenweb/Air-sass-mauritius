@@ -40,7 +40,7 @@ export default function AboutClient() {
     const identity = content?.identity || {
         subtitle: "Who we are",
         title: "Mauritius's Most <br/> Trusted Travel Experts",
-        description: "Experience the pinnacle of travel excellence with Travel Lounge. Our dedicated team and global network ensure your journey is seamless and extraordinary.",
+        description: "Experience the pinnacle of travel excellence with Royal Travel. Our dedicated team and global network ensure your journey is seamless and extraordinary.",
         quote: "Our mission is to transform every journey into a masterpiece of memories.",
         stats_label: "Years of Excellence",
         stats_value: "29+",

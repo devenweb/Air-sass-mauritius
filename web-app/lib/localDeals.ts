@@ -1,6 +1,6 @@
 /**
- * Local Deals service types that route to inbound@travellounge.mu
- * All other service types route to reservation@travellounge.mu
+ * Local Deals service types that route to inbound@royaltravel.mu
+ * All other service types route to reservation@royaltravel.mu
  */
 const LOCAL_DEAL_TYPES = ['hotel', 'day_package', 'evening_package']
 

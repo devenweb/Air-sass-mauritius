@@ -59,11 +59,11 @@ const Settings = () => {
       push: true
     },
     email: {
-      mailServerUrl: 'smtp.travellounge.mu',
+      mailServerUrl: 'smtp.royaltravel.mu',
       mailServerPort: '465',
-      mailServerLogin: 'noreply@travellounge.mu',
+      mailServerLogin: 'noreply@royaltravel.mu',
       mailServerPass: 'Cr@nberry@280426',
-      mailFromEmail: 'noreply@travellounge.mu',
+      mailFromEmail: 'noreply@royaltravel.mu',
       mailFromName: 'Royal Travel Agency'
     },
     security: {
@@ -729,7 +729,7 @@ const Settings = () => {
                     <input
                       type="email"
                       name="mobile.supportEmail"
-                      placeholder="support@travellounge.mu"
+                      placeholder="support@royaltravel.mu"
                       className="w-full px-4 py-3 bg-gray-50/50 border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-red-100 focus:border-brand-red transition-all font-bold text-gray-900"
                       value={formData.mobile.supportEmail}
                       onChange={handleChange}
@@ -913,7 +913,7 @@ const Settings = () => {
                       <input
                         type="email"
                         name="email.mailFromEmail"
-                        placeholder="noreply@travellounge.mu"
+                        placeholder="noreply@royaltravel.mu"
                         className="w-full px-4 py-3 bg-white border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-100 focus:border-blue-500 transition-all font-bold text-gray-900"
                         value={formData.email.mailFromEmail}
                         onChange={handleChange}

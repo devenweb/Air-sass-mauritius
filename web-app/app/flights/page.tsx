@@ -98,12 +98,12 @@ export default function FlightsPage() {
                         </div>
                         
                         {/* Previous target=_blank preserved per guidelines:
-                        src="https://travellounge.golibe.com/iframe?iframe=1&target=_blank&embedded=true"
+                        src="https://royaltravel.golibe.com/iframe?iframe=1&target=_blank&embedded=true"
                         */}
                         <iframe 
                             id="golIbeIframe"
                             name="golIbeIframe"
-                            src="https://travellounge.golibe.com/iframe?iframe=1&target=_self&embedded=true" 
+                            src="https://royaltravel.golibe.com/iframe?iframe=1&target=_self&embedded=true" 
                             width="100%" 
                             height={iframeHeight}
                             frameBorder="0" 

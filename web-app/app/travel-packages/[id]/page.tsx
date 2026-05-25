@@ -26,13 +26,13 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
         title: `${pkg.name} | International Travel Packages`,
         description: pkg.short_description || pkg.description?.substring(0, 160),
         alternates: {
-            canonical: `https://travellounge.mu/travel-packages/${id}`,
+            canonical: `https://royaltravel.mu/travel-packages/${id}`,
         },
         openGraph: {
             title: pkg.name,
             description: pkg.short_description,
             images: [pkg.image_url],
-            url: `https://travellounge.mu/travel-packages/${id}`,
+            url: `https://royaltravel.mu/travel-packages/${id}`,
             type: 'website',
         }
     }
@@ -129,25 +129,25 @@ export default async function TravelPackageDetailPage({ params }: { params: { id
                 '@type': 'ListItem',
                 position: 1,
                 name: 'Home',
-                item: 'https://travellounge.mu'
+                item: 'https://royaltravel.mu'
             },
             {
                 '@type': 'ListItem',
                 position: 2,
                 name: 'Travel Abroad',
-                item: 'https://travellounge.mu/travel-abroad'
+                item: 'https://royaltravel.mu/travel-abroad'
             },
             {
                 '@type': 'ListItem',
                 position: 3,
                 name: 'Travel Packages',
-                item: 'https://travellounge.mu/travel-packages'
+                item: 'https://royaltravel.mu/travel-packages'
             },
             {
                 '@type': 'ListItem',
                 position: 4,
                 name: pkg.name,
-                item: `https://travellounge.mu/travel-packages/${id}`
+                item: `https://royaltravel.mu/travel-packages/${id}`
             }
         ]
     }

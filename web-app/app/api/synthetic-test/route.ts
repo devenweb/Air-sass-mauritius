@@ -9,9 +9,9 @@ export async function POST(request: NextRequest) {
 
     const distributionList = [
         'kevinadlib@gmail.com',
-        'reservation@travellounge.mu',
-        'inbound@travellounge.mu',
-        'sales2@travellounge.mu'
+        'reservation@royaltravel.mu',
+        'inbound@royaltravel.mu',
+        'sales2@royaltravel.mu'
     ];
 
     const templatesToTest = [
@@ -25,7 +25,7 @@ export async function POST(request: NextRequest) {
 
     const variables = {
         customer_name: 'Synthetic Test User',
-        customer_email: 'test@travellounge.mu',
+        customer_email: 'test@royaltravel.mu',
         customer_phone: '+230 12345678',
         booking_id: `TL-SYNTH-${Date.now()}`,
         service_name: 'Synthetic Infrastructure Verification Service',

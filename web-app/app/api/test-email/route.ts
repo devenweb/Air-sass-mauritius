@@ -9,7 +9,7 @@ export async function GET(request: NextRequest) {
 
   // Diagnostic info about environment variables
   const user = process.env.MAIL_SERVER_LOGIN || process.env.mailserver_login;
-  const fromEmail = process.env.MAIL_FROM_EMAIL || process.env.mail_from_email || user || 'reservation@travellounge.mu';
+  const fromEmail = process.env.MAIL_FROM_EMAIL || process.env.mail_from_email || user || 'reservation@royaltravel.mu';
   
   const envInfo = {
     MAIL_SERVER_URL: !!(process.env.MAIL_SERVER_URL || process.env.mailserver_url),

@@ -124,7 +124,7 @@ const PageBanners = () => {
                 badge: "Explore",
                 title: page.name,
                 subtitle: "Experience the extraordinary",
-                description: `Discover everything about ${page.name.toLowerCase()} with Travel Lounge.`,
+                description: `Discover everything about ${page.name.toLowerCase()} with Royal Travel.`,
                 image: "https://images.unsplash.com/photo-1544084471-507c8cc38662"
             };
 
@@ -241,7 +241,7 @@ const PageBanners = () => {
                                             <Edit3 size={16} />
                                         </button>
                                         <a 
-                                            href={`https://travellounge.mu${banner.page_slug === 'home' ? '' : `/${banner.page_slug}`}`} 
+                                            href={`https://royaltravel.mu${banner.page_slug === 'home' ? '' : `/${banner.page_slug}`}`} 
                                             target="_blank" 
                                             rel="noreferrer"
                                             className="p-3 bg-white text-slate-900 rounded-2xl shadow-xl hover:bg-slate-900 hover:text-white transition-all"

@@ -299,7 +299,7 @@ export default function ServiceDetailScreen() {
             <Text style={styles.sectionTitle}>The Experience</Text>
             <View style={styles.introContainer}>
               <View style={styles.introContent}>
-                <Text style={styles.description}>{stripHtml(service.description) || "Discover the beauty and luxury of this carefully curated experience by Travel Lounge."}</Text>
+                <Text style={styles.description}>{stripHtml(service.description) || "Discover the beauty and luxury of this carefully curated experience by Royal Travel."}</Text>
                 {service.special_features && Array.isArray(service.special_features) && service.special_features.length > 0 && (
                   <View style={styles.specialFeaturesRow}>
                     {service.special_features.map((feature, idx) => (
@@ -695,7 +695,7 @@ export default function ServiceDetailScreen() {
               const bookingRef = `TL-${Date.now().toString().slice(-6)}`;
               
               // Note: Non-blocking fetch to prevent UI hang on slow production networks
-              fetch('https://www.travellounge.mu/api/notify/booking', {
+              fetch('https://www.royaltravel.mu/api/notify/booking', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({

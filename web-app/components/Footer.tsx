@@ -83,7 +83,7 @@ export default function Footer() {
                         <div>
                             <Link href="/" className="inline-block mb-3 transition-transform hover:scale-105">
                                 <img
-                                    src="/tlounge-logo-transparent.png"
+                                    src="/royaltravel-logo-transparent.png"
                                     alt={brandName}
                                     style={{
                                         height: config?.logoHeight ? `${Math.min(parseInt(config.logoHeight), 60)}px` : '60px',
@@ -122,13 +122,13 @@ export default function Footer() {
                                 </a>
                             )}
                             {/* LinkedIn, X, and YouTube hidden per user request
-                            <a href="https://linkedin.com/company/travellounge" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-slate-900 rounded-xl flex items-center justify-center hover:bg-[#0077b5] text-white transition-all shadow-lg ring-1 ring-white/5" title="LinkedIn">
+                            <a href="https://linkedin.com/company/royaltravel" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-slate-900 rounded-xl flex items-center justify-center hover:bg-[#0077b5] text-white transition-all shadow-lg ring-1 ring-white/5" title="LinkedIn">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
                             </a>
-                            <a href="https://x.com/travellounge" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-slate-900 rounded-xl flex items-center justify-center hover:bg-slate-800 text-white transition-all shadow-lg ring-1 ring-white/5" title="X (Twitter)">
+                            <a href="https://x.com/royaltravel" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-slate-900 rounded-xl flex items-center justify-center hover:bg-slate-800 text-white transition-all shadow-lg ring-1 ring-white/5" title="X (Twitter)">
                                 <svg viewBox="0 0 24 24" fill="currentColor" className="w-3.5 h-3.5"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg>
                             </a>
-                            <a href="https://youtube.com/@travellounge" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-slate-900 rounded-xl flex items-center justify-center hover:bg-red-700 text-white transition-all shadow-lg ring-1 ring-white/5" title="YouTube">
+                            <a href="https://youtube.com/@royaltravel" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-slate-900 rounded-xl flex items-center justify-center hover:bg-red-700 text-white transition-all shadow-lg ring-1 ring-white/5" title="YouTube">
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.42a2.78 2.78 0 0 0-1.94 2C1 8.14 1 12 1 12s0 3.86.42 5.58a2.78 2.78 0 0 0 1.94 2c1.72.42 8.6.42 8.6.42s6.88 0 8.6-.42a2.78 2.78 0 0 0 1.94-2C23 15.86 23 12 23 12s0-3.86-.42-5.58z"></path><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"></polygon></svg>
                             </a>
                             */}

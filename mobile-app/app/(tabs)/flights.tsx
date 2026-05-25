@@ -171,7 +171,7 @@ export default function FlightsScreen() {
                 )}
                 {/* PREVIOUS WebView PRESERVED AS COMMENT PER USER RULES:
                 <WebView 
-                  source={{ uri: 'https://travellounge.golibe.com/iframe?iframe=1&target=_blank&embedded=true' }} 
+                  source={{ uri: 'https://royaltravel.golibe.com/iframe?iframe=1&target=_blank&embedded=true' }} 
                   style={styles.webview}
                   onLoadEnd={() => setIsLoading(false)}
                   scrollEnabled={false}
@@ -182,7 +182,7 @@ export default function FlightsScreen() {
                 />
                 */}
                 <WebView 
-                  source={{ uri: 'https://travellounge.golibe.com/iframe?iframe=1&target=_self&embedded=true' }} 
+                  source={{ uri: 'https://royaltravel.golibe.com/iframe?iframe=1&target=_self&embedded=true' }} 
                   style={styles.webview}
                   onLoadEnd={() => setIsLoading(false)}
                   scrollEnabled={false}

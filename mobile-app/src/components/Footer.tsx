@@ -80,8 +80,8 @@ const Footer = () => {
   };
 
   const contactPhone = settings?.contactPhone || '+230 5940 7701';
-  const facebookUrl = settings?.facebookUrl || 'https://www.facebook.com/travellounge.mu';
-  const instagramUrl = settings?.instagramUrl || 'https://www.instagram.com/travellounge_ltd';
+  const facebookUrl = settings?.facebookUrl || 'https://www.facebook.com/royaltravel.mu';
+  const instagramUrl = settings?.instagramUrl || 'https://www.instagram.com/royaltravel_ltd';
   const tiktokUrl = settings?.tiktokUrl || '';
   const whatsappNumber = settings?.whatsappNumber1 || '23059407701';
   const labels = settings?.ui_labels || {};
@@ -109,7 +109,7 @@ const Footer = () => {
       {/* Branding Section */}
       <View style={styles.brandingSection}>
         <Image 
-          source={require('../../assets/tlounge-logo-transparent.webp')} 
+          source={require('../../assets/royaltravel-logo-transparent.png')} 
           style={styles.logo}
           resizeMode="contain"
         />
@@ -165,8 +165,8 @@ const Footer = () => {
            {[
              { label: 'Our Story', route: '/about' },
              { label: 'Common Questions (FAQ)', route: '/faq' },
-             { label: 'Privacy Policy', route: 'https://travellounge.mu/privacy-policy' },
-             { label: 'Terms & Conditions', route: 'https://travellounge.mu/terms-conditions' },
+             { label: 'Privacy Policy', route: 'https://royaltravel.mu/privacy-policy' },
+             { label: 'Terms & Conditions', route: 'https://royaltravel.mu/terms-conditions' },
            ].map((item, idx) => (
              <TouchableOpacity key={idx} style={styles.linkItem} onPress={() => handlePress(item.route)}>
                 <Text style={styles.linkText}>{item.label}</Text>

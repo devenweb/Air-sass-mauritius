@@ -44,7 +44,7 @@ VALUES
 (
     'admin_new_booking', 
     'NEW BOOKING: {{booking_reference}} - {{customer_name}}', 
-    '<h1>New Booking Received</h1><p>A new booking has been submitted through the portal.</p><p><strong>Reference:</strong> {{booking_reference}}</p><p><strong>Customer:</strong> {{customer_name}} ({{customer_email}})</p><p><strong>Service:</strong> {{service_name}}</p><p><strong>{{label_start}}:</strong> {{check_in}}</p><p><strong>Pax:</strong> {{adults}} Adults, {{children}} Children</p><p><strong>Total:</strong> {{total_price}}</p><p><a href="https://admin.travellounge.mu/bookings">View in Admin Portal</a></p>', 
+    '<h1>New Booking Received</h1><p>A new booking has been submitted through the portal.</p><p><strong>Reference:</strong> {{booking_reference}}</p><p><strong>Customer:</strong> {{customer_name}} ({{customer_email}})</p><p><strong>Service:</strong> {{service_name}}</p><p><strong>{{label_start}}:</strong> {{check_in}}</p><p><strong>Pax:</strong> {{adults}} Adults, {{children}} Children</p><p><strong>Total:</strong> {{total_price}}</p><p><a href="https://admin.royaltravel.mu/bookings">View in Admin Portal</a></p>', 
     'Sent to the staff for every new booking.'
 ),
 (

@@ -154,7 +154,7 @@ const ManageStaff = () => {
             const payload = { 
                 ...payloadData, 
                 title: finalTitle,
-                email: formData.email || `${formData.name.toLowerCase().replace(/\s+/g, '.')}@travellounge.mu`,
+                email: formData.email || `${formData.name.toLowerCase().replace(/\s+/g, '.')}@royaltravel.mu`,
                 role: calculatedRole,
                 updated_at: new Date().toISOString() 
             };

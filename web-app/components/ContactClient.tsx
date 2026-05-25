@@ -128,7 +128,7 @@ export default function ContactClient() {
         support: [
             { type: labels.direct_line_label || 'Direct Line', value: brandPhone || settings?.contactPhone || '+230 212 4070', icon: 'phone' },
             { type: labels.whatsapp_concierge_label || 'WhatsApp Concierge', value: whatsappFormatted || settings?.whatsappNumber1 || '+230 5509 7702', icon: 'whatsapp' },
-            { type: labels.email_inquiry_label || 'Email Inquiry', value: settings?.contactEmail || 'reservation@travellounge.mu', icon: 'email' }
+            { type: labels.email_inquiry_label || 'Email Inquiry', value: settings?.contactEmail || 'reservation@royaltravel.mu', icon: 'email' }
         ]
     }
 

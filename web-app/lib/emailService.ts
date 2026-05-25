@@ -28,9 +28,9 @@ async function getEmailSettings() {
             port: parseInt((emailConfig.mailServerPort || process.env.MAIL_SERVER_PORT || '587').trim()),
             user: (emailConfig.mailServerLogin || process.env.MAIL_SERVER_LOGIN || '').trim(),
             pass: (emailConfig.mailServerPass || process.env.MAIL_SERVER_PASS || '').trim(),
-            fromEmail: (emailConfig.mailFromEmail || process.env.MAIL_FROM_EMAIL || 'noreply@travellounge.mu').trim(),
+            fromEmail: (emailConfig.mailFromEmail || process.env.MAIL_FROM_EMAIL || 'noreply@royaltravel.mu').trim(),
             fromName: (emailConfig.mailFromName || process.env.MAIL_FROM_NAME || 'Royal Travel Agency').trim(),
-            logoUrl: generalConfig.logoUrl || 'https://travellounge.mu/assets/logo.png',
+            logoUrl: generalConfig.logoUrl || 'https://royaltravel.mu/assets/logo.png',
             address: generalConfig.contactAddress || 'Mauritius',
             phone: generalConfig.contactPhone || '+230 5509 7702'
         }
@@ -41,9 +41,9 @@ async function getEmailSettings() {
             port: parseInt((process.env.MAIL_SERVER_PORT || '587').trim()),
             user: (process.env.MAIL_SERVER_LOGIN || '').trim(),
             pass: (process.env.MAIL_SERVER_PASS || '').trim(),
-            fromEmail: (process.env.MAIL_FROM_EMAIL || 'noreply@travellounge.mu').trim(),
+            fromEmail: (process.env.MAIL_FROM_EMAIL || 'noreply@royaltravel.mu').trim(),
             fromName: (process.env.MAIL_FROM_NAME || 'Royal Travel Agency').trim(),
-            logoUrl: 'https://travellounge.mu/assets/logo.png',
+            logoUrl: 'https://royaltravel.mu/assets/logo.png',
             address: 'Mauritius',
             phone: '+230 5509 7702'
         }
@@ -112,9 +112,9 @@ function stripHtml(html: string): string {
  * Wraps content in a professional, responsive HTML template
  */
 function wrapProfessionalTemplate(content: string, vars: any) {
-    const logoUrl = vars.logo_url || 'https://travellounge.mu/assets/logo.png';
+    const logoUrl = 'https://royaltravel.mu/assets/logo.png?v=new';
     const accentColor = '#DC2626';
-    const footerEmail = vars.footer_email || 'noreply@travellounge.mu';
+    const footerEmail = vars.footer_email || 'noreply@royaltravel.mu';
     const footerPhone = vars.footer_phone || '+230 5509 7702';
 
     return `
@@ -148,7 +148,7 @@ function wrapProfessionalTemplate(content: string, vars: any) {
 <body>
     <center class="wrapper">
         <div class="header">
-            <a href="https://travellounge.mu">
+            <a href="https://royaltravel.mu">
                 <img src="${logoUrl}" alt="Royal Travel Agency" style="max-height: 50px; width: auto;" />
             </a>
         </div>
@@ -160,9 +160,9 @@ function wrapProfessionalTemplate(content: string, vars: any) {
             </tr>
         </table>
         <div class="footer">
-            <p>&copy; 2026 Travel Lounge. All rights reserved.</p>
+            <p>&copy; 2026 Royal Travel. All rights reserved.</p>
             <p>Mauritius | ${footerPhone} | ${footerEmail}</p>
-            <p><a href="https://travellounge.mu" style="color: #A8AAAD; text-decoration: underline;">www.travellounge.mu</a></p>
+            <p><a href="https://royaltravel.mu" style="color: #A8AAAD; text-decoration: underline;">www.royaltravel.mu</a></p>
         </div>
     </center>
 </body>

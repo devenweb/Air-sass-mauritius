@@ -8,12 +8,12 @@ export const metadata: Metadata = {
     title: '🏝️ Best Hotels in Rodrigues: Authentic Island Stays & Beachfront Guesthouses',
     description: 'Experience genuine Rodriguan hospitality. Discover the best hotels, charming guesthouses and beachfront resorts in Rodrigues Island at best local rates.',
     alternates: {
-        canonical: 'https://travellounge.mu/rodrigue-hotels',
+        canonical: 'https://royaltravel.mu/rodrigue-hotels',
     },
     openGraph: {
         title: 'Authentic Rodrigues Island Stays | Royal Travel Agency',
         description: 'Peace, serenity, and local charm. Curated selection of the best places to stay in Rodrigues.',
-        url: 'https://travellounge.mu/rodrigue-hotels',
+        url: 'https://royaltravel.mu/rodrigue-hotels',
         type: 'website',
     }
 }
@@ -27,13 +27,13 @@ export default function RodriguesHotelsPage() {
                 '@type': 'ListItem',
                 position: 1,
                 name: 'Home',
-                item: 'https://travellounge.mu'
+                item: 'https://royaltravel.mu'
             },
             {
                 '@type': 'ListItem',
                 position: 2,
                 name: 'Rodrigues Hotels',
-                item: 'https://travellounge.mu/rodrigue-hotels'
+                item: 'https://royaltravel.mu/rodrigue-hotels'
             }
         ]
     }

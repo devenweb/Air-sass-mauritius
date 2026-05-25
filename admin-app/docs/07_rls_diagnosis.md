@@ -18,7 +18,7 @@ Most RLS access issues in this Supabase project are caused by **missing `user_id
 - **Access Level**: Full `ALL` permissions verified via `is_admin_v2()`.
 
 ### 2. Regular Authenticated Staff Status: âŒ **FAIL (Logical)**
-- **Test Condition**: User `leena@travellounge.mu` (Director) or `maleekah@travellounge.mu` (Consultant).
+- **Test Condition**: User `leena@royaltravel.mu` (Director) or `maleekah@royaltravel.mu` (Consultant).
 - **Issue**: These users exist in the `public.admins` table but have **NULL `user_id`**.
 - **Result**: When they log in via Supabase Auth, their `auth.uid()` does not match their record.
 - **Access Level**: They see **0 bookings** and **0 inquiries**, effectively treated as regular public users.

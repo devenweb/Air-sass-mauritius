@@ -8,12 +8,12 @@ export const metadata: Metadata = {
     title: '🇲🇺 Best Luxury Hotels & Beachfront Resorts in Mauritius | Royal Travel Agency',
     description: 'Discover the top luxury hotels in Mauritius. Book exclusive deals at world-class resorts with local island experts. Low Price Guarantee & Free Concierge.',
     alternates: {
-        canonical: 'https://travellounge.mu/hotels',
+        canonical: 'https://royaltravel.mu/hotels',
     },
     openGraph: {
         title: 'Luxury Mauritius Hotels & Resorts | Royal Travel Agency',
         description: 'Discover world-class hospitality and stunning beachfront resorts in Mauritius.',
-        url: 'https://travellounge.mu/hotels',
+        url: 'https://royaltravel.mu/hotels',
         type: 'website',
     }
 }
@@ -27,13 +27,13 @@ export default function HotelsPage() {
                 '@type': 'ListItem',
                 position: 1,
                 name: 'Home',
-                item: 'https://travellounge.mu'
+                item: 'https://royaltravel.mu'
             },
             {
                 '@type': 'ListItem',
                 position: 2,
                 name: 'Hotels',
-                item: 'https://travellounge.mu/hotels'
+                item: 'https://royaltravel.mu/hotels'
             }
         ]
     }

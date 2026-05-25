@@ -8,12 +8,12 @@ export const metadata: Metadata = {
     title: '🏝️ Best Resort Day Passes in Mauritius: All-Inclusive Day Packages',
     description: 'Indulge in the finest resort facilities without the overnight stay. Book exclusive hotel day packages and resort day passes online at best rates.',
     alternates: {
-        canonical: 'https://travellounge.mu/hotel-day-packages',
+        canonical: 'https://royaltravel.mu/hotel-day-packages',
     },
     openGraph: {
         title: 'Premium Mauritius Resort Day Passes | Royal Travel Agency',
         description: 'Experience luxury resorts for a day. All-inclusive lunch, pool access, and activities.',
-        url: 'https://travellounge.mu/hotel-day-packages',
+        url: 'https://royaltravel.mu/hotel-day-packages',
         type: 'website',
     }
 }
@@ -27,13 +27,13 @@ export default function HotelDayPackagesPage() {
                 '@type': 'ListItem',
                 position: 1,
                 name: 'Home',
-                item: 'https://travellounge.mu'
+                item: 'https://royaltravel.mu'
             },
             {
                 '@type': 'ListItem',
                 position: 2,
                 name: 'Hotel Day Packages',
-                item: 'https://travellounge.mu/hotel-day-packages'
+                item: 'https://royaltravel.mu/hotel-day-packages'
             }
         ]
     }

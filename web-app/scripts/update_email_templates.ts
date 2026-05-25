@@ -22,7 +22,7 @@ const TEMPLATE_WRAPPER = (header: string, content: string) => `
         <div style="padding-top: 30px; border-top: 1px solid #f0f0f0; text-align: center;">
             <p style="font-size: 14px; margin-bottom: 5px; color: #888;">Best Regards,</p>
             <p style="font-size: 16px; font-weight: 800; color: #000; margin-top: 0;">The Royal Travel Agency Team</p>
-            <p style="font-size: 12px; color: #aaa; margin-top: 20px;">info@travellounge.mu | Since 1995</p>
+            <p style="font-size: 12px; color: #aaa; margin-top: 20px;">info@royaltravel.mu | Since 1995</p>
         </div>
     </div>
 </div>
@@ -96,7 +96,7 @@ const ADMIN_CONTENT = `
         
         <!-- Commented out to remove the action button from the template
         <div style="text-align: center; margin-top: 20px;">
-            <a href="https://admin.travellounge.mu/bookings" style="background-color: #e11d48; color: white; padding: 12px 25px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;">View in Admin Portal</a>
+            <a href="https://admin.royaltravel.mu/bookings" style="background-color: #e11d48; color: white; padding: 12px 25px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block;">View in Admin Portal</a>
         </div>
         -->
 `;
@@ -182,7 +182,7 @@ const ADMIN_NEW_INQUIRY_CONTENT = `
 
       <!-- Commented out to remove the action button from the template
       <div style="margin-top: 30px; text-align: center;">
-        <a href="https://admin.travellounge.mu/inquiries" class="button">View in Dashboard</a>
+        <a href="https://admin.royaltravel.mu/inquiries" class="button">View in Dashboard</a>
       </div>
       -->
 `;

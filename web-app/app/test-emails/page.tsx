@@ -100,9 +100,9 @@ export default function SyntheticTestPage() {
                         <h4 className="text-sm font-black text-blue-900 uppercase tracking-wider">Distribution List & Scope</h4>
                         <p className="text-xs text-blue-700 font-medium leading-relaxed">
                             Tests will be sent to: <span className="font-bold underline">kevinadlib@gmail.com</span>, 
-                            <span className="font-bold underline ml-1">reservation@travellounge.mu</span>, 
-                            <span className="font-bold underline ml-1">inbound@travellounge.mu</span>, 
-                            <span className="font-bold underline ml-1 text-blue-900">sales2@travellounge.mu</span>. 
+                            <span className="font-bold underline ml-1">reservation@royaltravel.mu</span>, 
+                            <span className="font-bold underline ml-1">inbound@royaltravel.mu</span>, 
+                            <span className="font-bold underline ml-1 text-blue-900">sales2@royaltravel.mu</span>. 
                             Templates: Booking Confirmation, Admin Booking, Inquiry Received, Admin Inquiry.
                         </p>
                     </div>

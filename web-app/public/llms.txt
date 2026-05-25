@@ -16,8 +16,8 @@ Royal Travel Agency is a leading boutique travel agency in Mauritius, offering l
 
 - **Address**: Royal Travel Agency, Port Louis, Mauritius
 - **Phone**: +230 212 4070
-- **Website**: https://travellounge.mu
-- **Email**: info@travellounge.mu
+- **Website**: https://royaltravel.mu
+- **Email**: info@royaltravel.mu
 
 ## Entity Information
 
@@ -37,4 +37,4 @@ Royal Travel Agency is a leading boutique travel agency in Mauritius, offering l
 - /contact - Inquiry forms and location
 
 ---
-Copyright 2026 Travel Lounge. All rights reserved.
+Copyright 2026 Royal Travel. All rights reserved.

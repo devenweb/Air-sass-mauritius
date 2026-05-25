@@ -7,14 +7,14 @@ import path from 'path';
 dotenv.config({ path: path.resolve(process.cwd(), '.env.local') });
 
 async function runTests() {
-    const recipients = ['kevinadlib@gmail.com', 'leena@travellounge.mu']; 
+    const recipients = ['kevinadlib@gmail.com', 'leena@royaltravel.mu']; 
     console.log(`\n🚀 STARTING COMPREHENSIVE EMAIL INFRASTRUCTURE TEST`);
     console.log(`Target Recipients: ${recipients.join(', ')}\n`);
 
     const commonVariables = {
         customer_name: 'John Doe (Test)',
         customer_phone: '+230 123 4567',
-        logo_url: 'https://travellounge.mu/assets/logo.png',
+        logo_url: 'https://royaltravel.mu/assets/logo.png',
         currency: 'Rs'
     };
 

@@ -61,28 +61,28 @@ const nextConfig: NextConfig = {
   async rewrites() {
     return [
       {
-        source: '/admin/travellounge2026',
-        destination: 'https://travellounge-2026-admin.vercel.app/',
+        source: '/admin/royaltravel2026',
+        destination: 'https://royaltravel-2026-admin.vercel.app/',
       },
       {
-        source: '/admin/travellounge2026/:path*',
-        destination: 'https://travellounge-2026-admin.vercel.app/:path*',
+        source: '/admin/royaltravel2026/:path*',
+        destination: 'https://royaltravel-2026-admin.vercel.app/:path*',
       },
       {
         source: '/admin',
-        destination: 'https://travellounge-2026-admin.vercel.app/',
+        destination: 'https://royaltravel-2026-admin.vercel.app/',
       },
       {
         source: '/admin/:path*',
-        destination: 'https://travellounge-2026-admin.vercel.app/:path*',
+        destination: 'https://royaltravel-2026-admin.vercel.app/:path*',
       },
       {
         source: '/administration',
-        destination: 'https://travellounge-2026-admin.vercel.app/',
+        destination: 'https://royaltravel-2026-admin.vercel.app/',
       },
       {
         source: '/administration/:path*',
-        destination: 'https://travellounge-2026-admin.vercel.app/:path*',
+        destination: 'https://royaltravel-2026-admin.vercel.app/:path*',
       },
     ];
   },

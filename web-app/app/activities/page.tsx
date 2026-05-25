@@ -10,12 +10,12 @@ export const metadata: Metadata = {
     title: '🏖️ 25+ Best Things to Do in Mauritius: Activities & Experiences',
     description: 'From underwater walks to mountain hikes, discover the definitive list of things to do in Mauritius. Book activities online at the best local rates.',
     alternates: {
-        canonical: 'https://travellounge.mu/activities',
+        canonical: 'https://royaltravel.mu/activities',
     },
     openGraph: {
         title: 'Top Mauritius Activities & Experiences | Royal Travel Agency',
         description: 'Your guide to the best adventures and things to do in Mauritius.',
-        url: 'https://travellounge.mu/activities',
+        url: 'https://royaltravel.mu/activities',
         type: 'website',
     }
 }
@@ -46,13 +46,13 @@ export default async function ActivitiesPage() {
                 '@type': 'ListItem',
                 position: 1,
                 name: 'Home',
-                item: 'https://travellounge.mu'
+                item: 'https://royaltravel.mu'
             },
             {
                 '@type': 'ListItem',
                 position: 2,
                 name: 'Activities',
-                item: 'https://travellounge.mu/activities'
+                item: 'https://royaltravel.mu/activities'
             }
         ]
     }

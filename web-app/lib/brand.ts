@@ -84,11 +84,11 @@ export function useBrand() {
     isLeisure,
     brandName: isLeisure ? 'Royal Leisure & Tours' : 'Royal Travel Agency',
     logo: isLeisure ? '/assets/logo-leisure.png' : '/assets/logo.png',
-    email: isLeisure ? 'inbound@travellounge.mu' : 'reservation@travellounge.mu',
+    email: isLeisure ? 'inbound@royaltravel.mu' : 'reservation@royaltravel.mu',
     whatsapp: isLeisure ? '23055097702' : '23059407711',
     whatsappFormatted: isLeisure ? '55097702' : '59407711',
-    instagram: isLeisure ? 'travellounge_leisure' : 'travellounge_ltd',
-    facebook: isLeisure ? 'travellounge.leisure' : 'travellounge.mu',
+    instagram: isLeisure ? 'royaltravel_leisure' : 'royaltravel_ltd',
+    facebook: isLeisure ? 'royaltravel.leisure' : 'royaltravel.mu',
     contactPhone: isLeisure ? '+230 2124070' : '+230 2124070'
   }
 }

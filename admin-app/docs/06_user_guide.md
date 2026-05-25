@@ -57,4 +57,4 @@ Centralized branding control.
 ---
 
 ## 4. Support
-For technical issues or feature requests, contact the development team at **dev@travellounge.mu**.
+For technical issues or feature requests, contact the development team at **dev@royaltravel.mu**.

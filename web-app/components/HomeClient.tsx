@@ -420,7 +420,7 @@ export default function HomeClient() {
                     />
                   </div>
                   <p className="text-lg text-slate-600 font-medium leading-relaxed max-w-xl">
-                    {content.advantage?.description || "Experience the pinnacle of travel services with Travel Lounge. Our decades of experience and global accreditations ensure your journey is handled with the utmost care and expertise."}
+                    {content.advantage?.description || "Experience the pinnacle of travel services with Royal Travel. Our decades of experience and global accreditations ensure your journey is handled with the utmost care and expertise."}
                   </p>
                 </div>
 

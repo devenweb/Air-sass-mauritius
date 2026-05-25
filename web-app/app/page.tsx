@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   title: 'Royal Travel Agency | Your Gateway to Extraordinary Journeys',
   description: 'Experience world-class travel with Mauritius\'s premier boutique agency. Book luxury hotels, exclusive cruises, and bespoke tours with expert local guidance.',
   alternates: {
-    canonical: 'https://travellounge.mu',
+    canonical: 'https://royaltravel.mu',
   },
   openGraph: {
     title: 'Royal Travel Agency | Premium Travel Experiences',
     description: 'Expertly curated travel experiences in Mauritius and beyond.',
-    url: 'https://travellounge.mu',
+    url: 'https://royaltravel.mu',
     siteName: 'Royal Travel Agency',
     images: [
       {
@@ -57,8 +57,8 @@ export default async function HomePage() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Royal Travel Agency',
-    url: 'https://travellounge.mu',
-    logo: 'https://travellounge.mu/assets/logo-red-bird.png',
+    url: 'https://royaltravel.mu',
+    logo: 'https://royaltravel.mu/assets/logo-red-bird.png',
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: '+230-212-4070',
@@ -67,8 +67,8 @@ export default async function HomePage() {
       availableLanguage: ['English', 'French']
     },
     sameAs: [
-      'https://www.facebook.com/travellounge',
-      'https://www.instagram.com/travellounge'
+      'https://www.facebook.com/royaltravel',
+      'https://www.instagram.com/royaltravel'
     ]
   }
 
@@ -76,12 +76,12 @@ export default async function HomePage() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Royal Travel Agency',
-    url: 'https://travellounge.mu',
+    url: 'https://royaltravel.mu',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: 'https://travellounge.mu/search?q={search_term_string}'
+        urlTemplate: 'https://royaltravel.mu/search?q={search_term_string}'
       },
       'query-input': 'required name=search_term_string'
     }
@@ -109,7 +109,7 @@ export default async function HomePage() {
               <div className="space-y-6">
                 <div 
                   className="text-xl text-slate-600 leading-relaxed font-medium"
-                  dangerouslySetInnerHTML={{ __html: seoContent?.paragraph_1 || 'Experience the pinnacle of Luxury Mauritius Travel with Travel Lounge.' }}
+                  dangerouslySetInnerHTML={{ __html: seoContent?.paragraph_1 || 'Experience the pinnacle of Luxury Mauritius Travel with Royal Travel.' }}
                 />
               </div>
               <div className="space-y-6">

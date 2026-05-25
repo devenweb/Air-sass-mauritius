@@ -120,7 +120,7 @@ const DEFAULT_CONTENT = {
     },
     about: {
         section_1_hero: { badge: 'Since 1995', title: 'Defining the Art of <br/> Boutique Travel', description: "We don't just book trips; we craft legacies. Royal Travel Agency is Mauritius's premier gateway to extraordinary global experiences and authentic island discoveries." },
-        section_2_identity: { subtitle: "Who we are", title: "Mauritius's Most <br/> Trusted Travel Experts", description: "Experience the pinnacle of travel excellence with Travel Lounge. Our dedicated team and global network ensure your journey is seamless and extraordinary.", quote: "Our mission is to transform every journey into a masterpiece of memories.", stats_label: "Years of Excellence", stats_value: "29+", image_corporate: "/assets/about/corporate.png", image_leisure: "/assets/about/leisure.png" }
+        section_2_identity: { subtitle: "Who we are", title: "Mauritius's Most <br/> Trusted Travel Experts", description: "Experience the pinnacle of travel excellence with Royal Travel. Our dedicated team and global network ensure your journey is seamless and extraordinary.", quote: "Our mission is to transform every journey into a masterpiece of memories.", stats_label: "Years of Excellence", stats_value: "29+", image_corporate: "/assets/about/corporate.png", image_leisure: "/assets/about/leisure.png" }
     },
     contact: {
         section_1_hero: { badge: 'Get In Touch', title: "We're Here To <br /><span class=\"text-red-500 italic\">Help You.</span>", image: "https://images.unsplash.com/photo-1423666639041-f56000c27a9a" },
@@ -132,7 +132,7 @@ const DEFAULT_CONTENT = {
             support: [
                 { type: 'Direct Line', value: '+230 212 4070', icon: 'phone' },
                 { type: 'WhatsApp Concierge', value: '+230 5940 7701', icon: 'whatsapp' },
-                { type: 'Email Inquiry', value: 'reservation@travellounge.mu', icon: 'email' }
+                { type: 'Email Inquiry', value: 'reservation@royaltravel.mu', icon: 'email' }
             ]
         },
         directions: { badge: 'Directions', title: 'Visit Our Offices', description: 'Find us easily with the interactive maps below. We look forward to welcoming you to our premises.' }
@@ -402,7 +402,7 @@ const CMS = () => {
                             <div className="flex items-center gap-4 mb-3">
                                 <span className="px-3 py-1 bg-slate-900 text-white rounded-full text-[8px] font-black uppercase tracking-[0.15em] shadow-lg shadow-slate-900/10">Dynamic Segment</span>
                                 <a 
-                                    href={`https://travellounge.mu${selectedPage.slug === 'home' ? '' : `/${selectedPage.slug}`}`} 
+                                    href={`https://royaltravel.mu${selectedPage.slug === 'home' ? '' : `/${selectedPage.slug}`}`} 
                                     target="_blank" 
                                     rel="noreferrer"
                                     className="flex items-center gap-2 text-[9px] font-black text-red-600 uppercase tracking-widest hover:underline"

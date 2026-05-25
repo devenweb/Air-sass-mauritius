@@ -1,8 +1,8 @@
 const { execSync } = require('child_process');
 
 const repos = [
-  { name: 'admin-app', path: 'c:/Users/deven/Desktop/Travel Lounge 2026/apps/admin-app' },
-  { name: 'web-app', path: 'c:/Users/deven/Desktop/Travel Lounge 2026/apps/web-app' }
+  { name: 'admin-app', path: 'c:/Users/deven/Desktop/Royal Travel 2026/apps/admin-app' },
+  { name: 'web-app', path: 'c:/Users/deven/Desktop/Royal Travel 2026/apps/web-app' }
 ];
 
 function getBranches(repoPath) {

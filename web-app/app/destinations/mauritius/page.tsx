@@ -5,7 +5,7 @@ export const metadata = {
     title: 'Mauritius - Discover the Island | Royal Travel Agency',
     description: 'Explore our curated list of hotels, activities, and packages in Mauritius.',
     alternates: {
-        canonical: 'https://travellounge.mu/destinations/mauritius',
+        canonical: 'https://royaltravel.mu/destinations/mauritius',
     }
 }
 
@@ -16,7 +16,7 @@ export default function MauritiusDestinationPage() {
         name: 'Mauritius',
         description: 'Tropical island nation in the Indian Ocean known for its beaches, lagoons and reefs.',
         image: '/assets/hero/mauritius_destination_hero_1773391482617.png',
-        url: 'https://travellounge.mu/destinations/mauritius'
+        url: 'https://royaltravel.mu/destinations/mauritius'
     }
 
     return (

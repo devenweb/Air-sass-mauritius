@@ -7,7 +7,7 @@ import { Plane, Globe, Shield, CreditCard, Clock, MapPin } from 'lucide-react';
 
 export const metadata = {
   title: 'Flight Bookings | Royal Travel Agency',
-  description: 'Book your international and domestic flights with Travel Lounge. We offer the best rates and excellent service for all your travel needs.',
+  description: 'Book your international and domestic flights with Royal Travel. We offer the best rates and excellent service for all your travel needs.',
 };
 
 export default function FlightPage() {

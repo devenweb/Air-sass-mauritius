@@ -5,12 +5,12 @@ export const metadata: Metadata = {
     title: '🌍 Guided World Tours & Immersive Group Adventures | Royal Travel Agency',
     description: 'Expertly led group tours across Africa, Asia, and Europe. Join small groups for the journey of a lifetime. Hand-picked itineraries & expert guides.',
     alternates: {
-        canonical: 'https://travellounge.mu/tours',
+        canonical: 'https://royaltravel.mu/tours',
     },
     openGraph: {
         title: 'Global Adventures & Guided Tours | Royal Travel Agency',
         description: 'Immersive group travel experiences led by expert guides.',
-        url: 'https://travellounge.mu/tours',
+        url: 'https://royaltravel.mu/tours',
         type: 'website',
     }
 }
@@ -24,13 +24,13 @@ export default function ToursPage() {
                 '@type': 'ListItem',
                 position: 1,
                 name: 'Home',
-                item: 'https://travellounge.mu'
+                item: 'https://royaltravel.mu'
             },
             {
                 '@type': 'ListItem',
                 position: 2,
                 name: 'Tours',
-                item: 'https://travellounge.mu/tours'
+                item: 'https://royaltravel.mu/tours'
             }
         ]
     }

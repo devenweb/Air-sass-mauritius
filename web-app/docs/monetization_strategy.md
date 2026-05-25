@@ -89,7 +89,7 @@ Based on the cleaned prospects database (`docs/cleaned_prospects.csv`), here is 
 To convert this code asset into a revenue-generating business, execute the following steps:
 
 1.  **Deploy a "Sales Demo" Sandbox**:
-    *   Configure a clean instance of the web-app, mobile-app, and admin-portal on a demo domain (e.g., `demo.travellounge.mu`).
+    *   Configure a clean instance of the web-app, mobile-app, and admin-portal on a demo domain (e.g., `demo.royaltravel.mu`).
     *   Populate it with dummy Mauritian travel packages (e.g., a "5-Night Catamaran Package in Grand Baie" and a "Rodrigues Island Escape").
 2.  **Run an Outreach Campaign using the Cleaned Prospect Database**:
     *   Utilize the contacts in `docs/cleaned_prospects.csv` (such as Shezad Tincowree at Shamal, Andre Nairac at Silver Wings, and Caroline Chen at Atom Travel).

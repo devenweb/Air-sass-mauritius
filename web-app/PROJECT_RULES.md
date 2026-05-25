@@ -32,7 +32,7 @@ Version: 4.0 — Consolidated & Authoritative
 - **Visual Excellence**: Use glassmorphism, vibrant colors, and smooth micro-animations. Avoid generic browser defaults.
 - **Full-Page Experience**: **MANDATORY**: Use dedicated routes/pages instead of modals or popups for primary booking and inquiry forms.
 - **Mobile First**: Minimum font size for labels is `11px`. Ensure all elements fit 320px viewports without overflow.
-- **Assets**: Use authoritative production assets (e.g., `https://travellounge.mu/assets/logo.png`).
+- **Assets**: Use authoritative production assets (e.g., `https://royaltravel.mu/assets/logo.png`).
 
 ### 5. STATE & PERFORMANCE
 - **State Management**: Use React Context for global state and React Query for server state.

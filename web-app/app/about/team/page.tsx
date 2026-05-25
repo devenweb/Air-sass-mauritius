@@ -210,7 +210,7 @@ export default function TeamPage() {
                                                     <div className="absolute inset-0 bg-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 px-12 flex flex-col items-center justify-center text-center text-white">
                                                         <div 
                                                             className="text-2xl md:text-3xl font-black text-white uppercase tracking-tighter mb-10 leading-[1.1] line-clamp-6 [&_*]:!text-white break-words"
-                                                            dangerouslySetInnerHTML={{ __html: sanitizeHtml(boss.bio || "Dedicated travel professional at Travel Lounge.") }}
+                                                            dangerouslySetInnerHTML={{ __html: sanitizeHtml(boss.bio || "Dedicated travel professional at Royal Travel.") }}
                                                         />
                                                         <div className="w-full max-w-[220px]">
                                                             <a href={`mailto:${boss.email}`} className="flex items-center justify-center gap-2 bg-white text-red-600 py-4 rounded-full font-black text-sm uppercase tracking-tighter hover:bg-slate-950 hover:text-white transition-all shadow-2xl shadow-black/20">
@@ -323,7 +323,7 @@ export default function TeamPage() {
                                                     <div className="absolute inset-0 bg-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 px-8 flex flex-col items-center justify-center text-center text-white">
                                                         <div 
                                                             className="text-xl md:text-2xl font-black text-white uppercase tracking-tighter mb-8 leading-[1.1] line-clamp-5 [&_*]:!text-white break-words"
-                                                            dangerouslySetInnerHTML={{ __html: sanitizeHtml(member.bio || "Dedicated travel professional at Travel Lounge.") }}
+                                                            dangerouslySetInnerHTML={{ __html: sanitizeHtml(member.bio || "Dedicated travel professional at Royal Travel.") }}
                                                         />
                                                         <div className="w-full max-w-[180px]">
                                                             <a href={`mailto:${member.email}`} className="flex items-center justify-center gap-2 bg-white text-red-600 py-3.5 rounded-full font-black text-xs uppercase tracking-tighter hover:bg-slate-950 hover:text-white transition-all shadow-2xl shadow-black/20">

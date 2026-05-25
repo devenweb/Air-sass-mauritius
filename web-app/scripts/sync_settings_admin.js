@@ -10,7 +10,7 @@ const supabase = createClient(supabaseUrl, supabaseServiceKey);
 
 const generalConfig = {
   siteTitle: "Royal Travel Agency",
-  contactEmail: "reservation@travellounge.mu",
+  contactEmail: "reservation@royaltravel.mu",
   contactPhone: "(+230) 212 4070",
   whatsappNumber1: "+230 5509 7702",
   whatsappNumber2: "+230 5940 7711",
@@ -19,8 +19,8 @@ const generalConfig = {
   office2Title: "Ebene Office",
   office2Address: "Ground Floor, 57 Ebene Mews, Rue Du Savoir, Ebene Cybercity.",
   workingHours: "Mon - Fri: 08:30 - 16:45\nSat: 08:30 - 12:30\nSun & Public Holidays: Closed",
-  facebookUrl: "https://www.facebook.com/travellounge.mu/",
-  instagramUrl: "https://www.instagram.com/travellounge/",
+  facebookUrl: "https://www.facebook.com/royaltravel.mu/",
+  instagramUrl: "https://www.instagram.com/royaltravel/",
   showFooterWeb: true,
   showFooterMobile: true,
   logoUrl: "/assets/logo-red-bird.png",

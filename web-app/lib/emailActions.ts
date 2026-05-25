@@ -10,8 +10,8 @@ const sanitize = (text?: string) => {
 
 /**
  * Determines admin recipients based on whether the source is a Local Deal.
- * Local Deals → inbound@travellounge.mu
- * Everything else → reservation@travellounge.mu
+ * Local Deals → inbound@royaltravel.mu
+ * Everything else → reservation@royaltravel.mu
  * Backup (kevinadlib@gmail.com) is always included.
  */
 /**
@@ -20,9 +20,9 @@ const sanitize = (text?: string) => {
  */
 function getAdminRecipients(isLocalDeal?: boolean): string[] {
     return [
-        'reservation@travellounge.mu',
-        'inbound@travellounge.mu',
-        'sales2@travellounge.mu',
+        'reservation@royaltravel.mu',
+        'inbound@royaltravel.mu',
+        'sales2@royaltravel.mu',
         'kevinadlib@gmail.com'
     ]
 }
@@ -89,9 +89,9 @@ export async function notifyBookingSuccess(data: {
     const showNights = isRangeBased ? 'table-row' : 'none'
 
     const logoUrl = data.isLocalDeal 
-        ? 'https://travellounge.mu/assets/logo.png' 
-        : 'https://travellounge.mu/assets/logo.png'
-    const footerEmail = data.isLocalDeal ? 'inbound@travellounge.mu' : 'reservation@travellounge.mu'
+        ? 'https://royaltravel.mu/assets/logo.png' 
+        : 'https://royaltravel.mu/assets/logo.png'
+    const footerEmail = data.isLocalDeal ? 'inbound@royaltravel.mu' : 'reservation@royaltravel.mu'
     const footerPhone = data.isLocalDeal ? '55097701' : '+230 5509 7701'
 
     // Server-side validation
@@ -227,9 +227,9 @@ export async function notifyInquiryReceived(data: {
     const destination = sanitize(data.destination);
 
     const logoUrl = data.isLocalDeal 
-        ? 'https://travellounge.mu/assets/logo.png' 
-        : 'https://travellounge.mu/assets/logo.png'
-    const footerEmail = data.isLocalDeal ? 'inbound@travellounge.mu' : 'reservation@travellounge.mu'
+        ? 'https://royaltravel.mu/assets/logo.png' 
+        : 'https://royaltravel.mu/assets/logo.png'
+    const footerEmail = data.isLocalDeal ? 'inbound@royaltravel.mu' : 'reservation@royaltravel.mu'
     const footerPhone = data.isLocalDeal ? '55097701' : '+230 5509 7701'
 
     // 1. Send Receipt to Customer (with Kevin CC'd)

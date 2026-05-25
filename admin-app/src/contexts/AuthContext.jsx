@@ -49,7 +49,7 @@ export const AuthProvider = ({ children }) => {
     const signIn = async (username, password) => {
         try {
             // Handle username shortcuts or direct emails
-            const email = username === 'admin' ? 'admin@travellounge.mu' : 
+            const email = username === 'admin' ? 'admin@royaltravel.mu' : 
                          username.includes('@') ? username : null;
 
             if (!email) {

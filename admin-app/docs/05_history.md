@@ -3,7 +3,7 @@
 ## Status: 2026-05-25 (Session 39)
 ### Task: Ecosystem Branding Rename & Final Build/Type Verification
 **Status: Verified & Certified**
-- **Brand Renaming & Terminology Alignment**: Global replacement of "Travel Lounge" with "Royal Travel Agency" across the codebase (web-app, admin-app, and mobile-app modules, including documentation, config files, and page copy).
+- **Brand Renaming & Terminology Alignment**: Global replacement of "Royal Travel" with "Royal Travel Agency" across the codebase (web-app, admin-app, and mobile-app modules, including documentation, config files, and page copy).
 - **Validation**:
   - Successfully built production bundle for `admin-app` (`npm run build`).
   - Successfully built production bundle for `web-app` (`npm run build` using Next.js compiler), verifying zero compilation errors.
@@ -540,7 +540,7 @@
     - **Visual Polish**: Eliminated all mobile side padding and legacy width constraints for a truly professional, "edge-to-edge" aesthetic.
 - **Email Infrastructure Validation**:
     - **Diagnostic Verification**: Successfully executed end-to-end email diagnostic tests for both `BookingWizard` and `TailorMadePage`.
-    - **Template Integrity**: Verified that all form fields (including guest breakdown and custom messages) are correctly mapped and rendered in the triple-desk notification pipeline (`reservation@travellounge.mu`, `inbound@travellounge.mu`).
+    - **Template Integrity**: Verified that all form fields (including guest breakdown and custom messages) are correctly mapped and rendered in the triple-desk notification pipeline (`reservation@royaltravel.mu`, `inbound@royaltravel.mu`).
 - **Data & Type Stewardship**:
     - **Supabase Type Generation**: Re-generated authoritative TypeScript types for the `public` schema, ensuring 100% alignment between the database and the web application.
     - **Schema Backup**: Created a comprehensive SQL structure backup in `supabase/backups/structure_20260507.sql`, documenting the current state of 16 core tables and relational functions.
@@ -674,7 +674,7 @@
 - **Admin-App Branding & UX Hardening**:
   - `admin-app/src/pages/Team.jsx`: Realigned team job title badges with requested branding: Bold white text on a solid red background.
   - `admin-app/src/pages/CMS.jsx`: Implemented intelligent field detection to automatically toggle the `RichTextEditor` for any content containing HTML tags, effectively resolving the issue of raw code being displayed in standard text inputs.
-- **Authoritative Credentials Deployed**: Synchronized production SMTP settings with the credentials provided by the Admin Chief: `noreply@travellounge.mu` via verified host `smtp.travellounge.mu` on Port 465. Updated both Supabase `site_settings` and `.env.local` fallback.
+- **Authoritative Credentials Deployed**: Synchronized production SMTP settings with the credentials provided by the Admin Chief: `noreply@royaltravel.mu` via verified host `smtp.royaltravel.mu` on Port 465. Updated both Supabase `site_settings` and `.env.local` fallback.
 - **Validation**: 
   - Verified 100% successful synthetic E2E test results with the new host.
   - Confirmed recursive whitespace trimming across all configuration and content modules.
@@ -805,7 +805,7 @@
   - `web-app/lib/emailActions.ts`: Implemented deep service-aware logic. Notifications now dynamically switch labels between **"Travel Date"** (Activities) and **"Check-in"** (Hotels) and generate context-specific intro text.
   - `web-app/lib/emailActions.ts`: Added CSS-based row visibility toggles (`show_checkout`, `show_nights`) to the email templates, ensuring irrelevant fields are hidden for single-day bookings.
 - **Email Branding & Logo Fix**:
-  - Standardized the email logo URL to the authoritative production asset: `https://travellounge.mu/assets/logo.png`.
+  - Standardized the email logo URL to the authoritative production asset: `https://royaltravel.mu/assets/logo.png`.
   - `web-app/scripts/update_email_templates.ts`: Overhauled the `booking_confirmation` (Customer) and `admin_new_booking` (Staff) templates with high-fidelity, branded designs that align with the boutique ecosystem standards.
 - **Admin App Refinement**:
   - `admin-app`: Simplified the sidebar interface by hiding the "Orders" and "Invoices" labels per operational request.
@@ -868,9 +868,9 @@
 ### Task: May Milestone - SMTP Finalization & Ecosystem Certification
 **Status: Verified & Certified**
 - **SMTP Routing Confirmation**: 
-  - Verified that all **Contact Forms** and **Inquiry Modules** (Plan My Trip, Tailor-Made) correctly route notifications to `reservation@travellounge.mu`, `inbound@travellounge.mu`, and `kevinadlib@gmail.com`.
-  - Confirmed "Local Deals" (Hotels, Day Packages, Evening Packages) route to `inbound@travellounge.mu` + `kevinadlib@gmail.com`.
-  - Verified Newsletter subscriptions route to `reservation@travellounge.mu`, `inbound@travellounge.mu`, and `kevinadlib@gmail.com`.
+  - Verified that all **Contact Forms** and **Inquiry Modules** (Plan My Trip, Tailor-Made) correctly route notifications to `reservation@royaltravel.mu`, `inbound@royaltravel.mu`, and `kevinadlib@gmail.com`.
+  - Confirmed "Local Deals" (Hotels, Day Packages, Evening Packages) route to `inbound@royaltravel.mu` + `kevinadlib@gmail.com`.
+  - Verified Newsletter subscriptions route to `reservation@royaltravel.mu`, `inbound@royaltravel.mu`, and `kevinadlib@gmail.com`.
   - Removed all hidden whitespace and newline characters from Vercel SMTP variables to ensure stable production delivery.
 - **Ecosystem Integrity & Backups**:
   - Created high-integrity backup branches (`backup-2026-05-01-final`) across `web-app`, `admin-app`, and `mobile-app`.
@@ -886,7 +886,7 @@
 ### Task: SMTP Production Overhaul & Ecosystem Backups
 **Status: Verified & Deployed**
 - **Changes**:
-  - `web-app`: Synchronized Vercel production environment variables with verified SMTP credentials. Updated host to `smtp.mydomain.com` and 'from' email to `reservation@travellounge.mu` as requested.
+  - `web-app`: Synchronized Vercel production environment variables with verified SMTP credentials. Updated host to `smtp.mydomain.com` and 'from' email to `reservation@royaltravel.mu` as requested.
   - `lib/emailService.ts`: Aligned the 'from' email fallback with the authenticated user to satisfy strict provider policies.
   - Ecosystem: Created `backup-2026-04-30` branches across all repositories as a stable state preserve.
 - **Validation**:
@@ -930,7 +930,7 @@
     - Enhanced the `app/api/test-email/route.ts` API to include an `env` diagnostic block in all responses, reporting exactly which environment variables are being detected by the runtime.
     - Overhauled the `app/test-email/page.tsx` UI to include a real-time diagnostic dashboard that visualizes SMTP configuration status, providing immediate feedback on whether environment variables are correctly loaded in production.
 - **Default Branding Configuration**: 
-    - Set the authoritative fallback "From" address to **reservation@travellounge.mu** and the sender name to **Royal Travel Agency** across all transactional modules.
+    - Set the authoritative fallback "From" address to **reservation@royaltravel.mu** and the sender name to **Royal Travel Agency** across all transactional modules.
 - **Root Cause Identification & Resolution**:
     - Identified a `ECONNREFUSED 127.0.0.1` failure in production, indicating that environment variables were not correctly read by the Vercel runtime. Added UI-based visual cues to guide manual redeployment for variable injection.
     - Resolved a critical JSX syntax error (`->` in text nodes) that blocked production builds, replacing them with escaped HTML entities.
@@ -1620,8 +1620,8 @@
 
 ## 2026-04-08 - Region Contextual Branding: Top Bar Email
 - **Contextual Email Routing**: Refined the global `Navbar` to display destination-specific contact information.
-    - **Mauritius Routes**: Displays `inbound@travellounge.mu` against the deep dark blue (`bg-slate-900`) top bar.
-    - **Global Routes**: Displays `reservation@travellounge.mu` against the signature red (`bg-red-600`) top bar.
+    - **Mauritius Routes**: Displays `inbound@royaltravel.mu` against the deep dark blue (`bg-slate-900`) top bar.
+    - **Global Routes**: Displays `reservation@royaltravel.mu` against the signature red (`bg-red-600`) top bar.
 - **Synchronized Mobile UI**: Extended the branding logic to the mobile drawer contact section for a consistent cross-device experience.
 - **Build Status**: Verified 100% build compatibility.
 
@@ -1834,3 +1834,6 @@
 - **Automated Verification**: Ran TypeScript compilation (`tsc --noEmit`) and the automated email test suite successfully, delivering 12/12 test emails to the triple-desk distribution list without errors.
 - **Production Deployment**: Committed all changes and successfully deployed the updated web application and admin panel to Vercel production.
 
+
+## 2026-05-25 - Comprehensive Branding Update
+- Replaced Travellounge branding with Royal Travel globally.

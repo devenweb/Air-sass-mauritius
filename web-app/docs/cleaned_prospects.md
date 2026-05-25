@@ -31,7 +31,7 @@ This document contains the cleaned and deduplicated list of prospects compiled f
 | Sun 'n' Sand Holidays | Sun 'n' Sand Holidays Ltd | — | +230 261 7629 | sunsand@intnet.mu | Royal Road, Triolet |
 | Sunset Holidays Ltd | Via Corporate Desk | Holiday Packages Team | +230 454 0111, +230 464 7665 | info@sunsetholidays.mu | Royal Rd, Rose Hill; 286A Royal Rd, Rose Hill |
 | Sunshine Voyages | Sunshine Voyages Ltd | Booking Lead | +230 413 6565 | sunshinevoyages@gmail.com | Fortune Way Bldg; Fortune Way Bldg, Central Flacq |
-| Travel Holiday Mauritius | Royal Travel Agency Ltd | via travellounge.mu; Independent Network | +230 403 6500, +230 5774 3782, +230 460 7777, +230 212 4070 | info@travelnetworkservices.mu, travelholidaymauritius@gmail.com, info@travellounge.mu | Suite G4, Ground Floor, 57 Ebene Mews, Ebene; Analysis House, Ebene; Kwong Ha Tong Wong Bldg; Travel Holiday Mauritius; Ebene Mews; Mauritius |
+| Travel Holiday Mauritius | Royal Travel Agency Ltd | via royaltravel.mu; Independent Network | +230 403 6500, +230 5774 3782, +230 460 7777, +230 212 4070 | info@travelnetworkservices.mu, travelholidaymauritius@gmail.com, info@royaltravel.mu | Suite G4, Ground Floor, 57 Ebene Mews, Ebene; Analysis House, Ebene; Kwong Ha Tong Wong Bldg; Travel Holiday Mauritius; Ebene Mews; Mauritius |
 | Tropical Heat Holidays | Tropical Heat Holidays | — | +230 466 5385 | tropheat@intnet.mu | 1st Floor, Newry Complex, St Jean Rd, Quatre Bornes |
 | Turquoise Voyages / Samtours | Turquoise Voyages / Samtours | Independent Network | +230 5815 3169 | samtoursmauritius@gmail.com | Mauritius |
 | Venus Voyages Vacances | Real Spot Ltd | — | — | — | Jules Koenig St, Port Louis |

@@ -10,9 +10,9 @@ export async function GET(request: NextRequest) {
   const url = new URL(request.url);
   const testEmail = url.searchParams.get('email') || 'kevinadlib@gmail.com';
   
-  const user = process.env.MAIL_SERVER_LOGIN || process.env.mailserver_login || 'noreply@travellounge.mu';
+  const user = process.env.MAIL_SERVER_LOGIN || process.env.mailserver_login || 'noreply@royaltravel.mu';
   const pass = process.env.MAIL_SERVER_PASS || process.env.mailserver_pass;
-  const fromEmail = process.env.MAIL_FROM_EMAIL || process.env.mail_from_email || 'reservation@travellounge.mu';
+  const fromEmail = process.env.MAIL_FROM_EMAIL || process.env.mail_from_email || 'reservation@royaltravel.mu';
 
   const configs = [
     { host: 'smtp.mydomain.com', port: 465, secure: true, label: 'Standard Port 465 (Implicit SSL)' },
@@ -21,8 +21,8 @@ export async function GET(request: NextRequest) {
     { host: 'mx.mydomain.com', port: 587, secure: false, label: 'MX Host Port 587' },
     { host: '66.96.143.170', port: 465, secure: true, label: 'IP Port 465 (No Cert Check)', rejectUnauthorized: false },
     { host: '66.96.143.170', port: 587, secure: false, label: 'IP Port 587 (No Cert Check)', rejectUnauthorized: false },
-    { host: 'mail.travellounge.mu', port: 465, secure: true, label: 'Domain Host Port 465' },
-    { host: 'mail.travellounge.mu', port: 587, secure: false, label: 'Domain Host Port 587' },
+    { host: 'mail.royaltravel.mu', port: 465, secure: true, label: 'Domain Host Port 465' },
+    { host: 'mail.royaltravel.mu', port: 587, secure: false, label: 'Domain Host Port 587' },
   ];
 
   const results = [];

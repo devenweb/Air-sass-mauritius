@@ -8,7 +8,7 @@ import { Breadcrumbs } from '@/components/ui/Breadcrumbs'
 const termsSections = [
     {
         title: "Agreement to Terms",
-        content: "By accessing and using TravelLounge.mu, you agree to be bound by these Terms and Conditions. If you do not agree to all of these terms, you are expressly prohibited from using the site and must discontinue use immediately."
+        content: "By accessing and using RoyalTravel.mu, you agree to be bound by these Terms and Conditions. If you do not agree to all of these terms, you are expressly prohibited from using the site and must discontinue use immediately."
     },
     {
         title: "Services & Bookings",
@@ -61,7 +61,7 @@ export default function TermsConditionsPage() {
                             Terms & <span className="text-red-600">Conditions</span>
                         </h1>
                         <p className="text-lg md:text-xl text-slate-400 font-medium leading-relaxed">
-                            The legal framework governing your relationship with Travel Lounge. Please read these terms carefully before using our services.
+                            The legal framework governing your relationship with Royal Travel. Please read these terms carefully before using our services.
                         </p>
                     </motion.div>
                 </div>
