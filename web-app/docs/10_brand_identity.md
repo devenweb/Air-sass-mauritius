@@ -1,6 +1,6 @@
 # Brand Identity & Contact Standardization
 
-This document outlines the standardized brand assets and contact information for the Travel Lounge 2026 ecosystem.
+This document outlines the standardized brand assets and contact information for the Royal Travel Agency 2026 ecosystem.
 
 ---
 

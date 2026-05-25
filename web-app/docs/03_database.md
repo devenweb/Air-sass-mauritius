@@ -1,7 +1,7 @@
 # 03 Database Schema (PostgreSQL)
 
 ## Core Relational Tables
-Travel Lounge 2026 utilizes a high-integrity relational schema optimized for multi-occupancy travel services and daily pricing grids.
+Royal Travel Agency 2026 utilizes a high-integrity relational schema optimized for multi-occupancy travel services and daily pricing grids.
 
 ### 1. `services`
 The authoritative catalog for all travel offerings.

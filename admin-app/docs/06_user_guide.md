@@ -1,7 +1,7 @@
-# 📘 Travel Lounge Admin Guide
+# 📘 Royal Travel Agency Admin Guide
 
 ## 1. Introduction
-Welcome to the **Travel Lounge Admin Portal**. This strategic hub allows you to manage the entire 11/10 Elite travel ecosystem, including services, bookings, customers, and site content.
+Welcome to the **Royal Travel Agency Admin Portal**. This strategic hub allows you to manage the entire 11/10 Elite travel ecosystem, including services, bookings, customers, and site content.
 
 ---
 

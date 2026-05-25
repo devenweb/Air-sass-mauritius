@@ -2,7 +2,7 @@ import React from 'react'
 import DestinationListing from '@/components/DestinationListing'
 
 export const metadata = {
-    title: 'West Coast Mauritius - Sunsets & Adventure | Travel Lounge',
+    title: 'West Coast Mauritius - Sunsets & Adventure | Royal Travel Agency',
     description: 'Adventure and the best sunsets in Mauritius await you on the West Coast.',
 }
 

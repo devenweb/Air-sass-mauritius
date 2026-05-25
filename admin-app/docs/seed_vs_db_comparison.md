@@ -1,7 +1,7 @@
 # Database vs Seed.sql Pricing Comparison Report
 
 Generated at: 5/20/2026, 2:27:49 PM
-- Seed file path: `C:\Users\deven\Desktop\Travel Lounge 2026\apps\admin-app\seed.sql`
+- Seed file path: `C:\Users\deven\Desktop\Royal Travel Agency 2026\apps\admin-app\seed.sql`
 - Live Supabase DB URL: `https://tbyudagfjspedeqtlgjv.supabase.co`
 
 ## Summary of Differences

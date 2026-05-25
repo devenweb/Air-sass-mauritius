@@ -1,7 +1,7 @@
 # 01 Overview & Ecosystem
 
 ## Project Mission
-The **Travel Lounge Mobile App** is a high-engagement concierge interface. It allows users to browse luxury services, track itineraries, and connect with 1-tap support. The app aims for an "Elite 11/10" standard of visual excellence and user experience.
+The **Royal Travel Agency Mobile App** is a high-engagement concierge interface. It allows users to browse luxury services, track itineraries, and connect with 1-tap support. The app aims for an "Elite 11/10" standard of visual excellence and user experience.
 
 ---
 

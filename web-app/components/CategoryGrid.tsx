@@ -77,7 +77,7 @@ export default function CategoryGrid({ data: externalData }: { data?: Category[]
                             <Link href={cat.slug ? `/${cat.slug}` : '#'} className="group block relative h-64 lg:h-72 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
                                 <Image
                                     src={resolveImageUrl(cat.image_url, '/assets/placeholders/hero-placeholder.png')}
-                                    alt={`${cat.name} Travel Category | Travel Lounge Mauritius`}
+                                    alt={`${cat.name} Travel Category | Royal Travel Agency Mauritius`}
                                     fill
                                     className="object-cover group-hover:scale-110 transition-transform duration-700"
                                 />

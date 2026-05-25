@@ -15,7 +15,7 @@ const supabase = createClient(supabaseUrl, supabaseKey)
 
 async function run() {
   console.log('========================================================================')
-  console.log('🚀 TRAVEL LOUNGE 2026 INTEGRATION TESTING & COMPREHENSIVE SERVICE AUDIT')
+  console.log('🚀 ROYAL TRAVEL AGENCY 2026 INTEGRATION TESTING & COMPREHENSIVE SERVICE AUDIT')
   console.log('========================================================================\n')
 
   let hasErrors = false

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Global Destinations | Travel Lounge',
+  title: 'Global Destinations | Royal Travel Agency',
   description: 'Explore our curated list of international and local destinations. From the beaches of Mauritius to the cities of Europe, your next adventure starts here.',
 };
 

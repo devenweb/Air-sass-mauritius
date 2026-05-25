@@ -33,7 +33,7 @@ export default function AboutClient() {
     const hero = content?.hero || {
         badge: "Since 1995",
         title: "Defining the Art of <br/> Boutique Travel",
-        description: "We don't just book trips; we craft legacies. Travel Lounge is Mauritius's premier gateway to extraordinary global experiences and authentic island discoveries.",
+        description: "We don't just book trips; we craft legacies. Royal Travel Agency is Mauritius's premier gateway to extraordinary global experiences and authentic island discoveries.",
         image: ""
     }
 
@@ -61,7 +61,7 @@ export default function AboutClient() {
             <section className="relative py-8 flex items-center overflow-hidden bg-slate-950 border-b border-white/10">
                 <Image
                     src={resolveImageUrl(hero.image || config?.aboutHeroImage, "https://images.unsplash.com/photo-1519451241324-20b4ea2c4220?q=80&w=2070&auto=format&fit=crop")}
-                    alt="Travel Lounge Mauritius"
+                    alt="Royal Travel Agency Mauritius"
                     fill
                     className="object-cover opacity-60"
                     priority
@@ -107,7 +107,7 @@ export default function AboutClient() {
                             <div className="flex items-center gap-3 mb-4">
                                 <Image
                                     src="/assets/logo-red-bird.png"
-                                    alt="Travel Lounge"
+                                    alt="Royal Travel Agency"
                                     width={48}
                                     height={48}
                                     className="object-contain"
@@ -123,7 +123,7 @@ export default function AboutClient() {
                                 <p className="text-xl italic font-medium text-slate-900 leading-relaxed mb-4">
                                     &quot;{identity.quote}&quot;
                                 </p>
-                                <span className="text-xs font-black uppercase tracking-widest text-red-600">{labels.vision_label || 'The Travel Lounge Vision'}</span>
+                                <span className="text-xs font-black uppercase tracking-widest text-red-600">{labels.vision_label || 'The Royal Travel Agency Vision'}</span>
                             </div>
                         </div>
 
@@ -134,12 +134,12 @@ export default function AboutClient() {
                                     <div className="text-xs font-black text-slate-400 uppercase tracking-widest">{identity.stats_label}</div>
                                 </div>
                                 <div className="aspect-[4/5] relative rounded-[2.5rem] overflow-hidden shadow-2xl border border-slate-100">
-                                    <Image src={resolveImageUrl(identity.image_corporate, "/assets/about/corporate.png")} alt="Travel Lounge Corporate Services" fill className="object-cover" />
+                                    <Image src={resolveImageUrl(identity.image_corporate, "/assets/about/corporate.png")} alt="Royal Travel Agency Corporate Services" fill className="object-cover" />
                                 </div>
                            </div>
                            <div className="space-y-6">
                                 <div className="aspect-[4/5] relative rounded-[2.5rem] overflow-hidden shadow-2xl border border-slate-100">
-                                    <Image src={resolveImageUrl(identity.image_leisure, "/assets/about/leisure.png")} alt="Travel Lounge Leisure Experiences" fill className="object-cover" />
+                                    <Image src={resolveImageUrl(identity.image_leisure, "/assets/about/leisure.png")} alt="Royal Travel Agency Leisure Experiences" fill className="object-cover" />
                                 </div>
                                 <div className="bg-red-600 p-8 rounded-[2.5rem] text-white shadow-2xl">
                                     <div className="text-4xl font-black mb-2">{labels.iata_label || 'IATA'}</div>

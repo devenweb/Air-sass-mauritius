@@ -1,5 +1,5 @@
 export const Colors = {
-  primary: '#DC2626', // Travel Lounge Red
+  primary: '#DC2626', // Royal Travel Agency Red
   charcoal: '#0F172A', // Slate 900 (Elite Charcoal)
   background: '#FFFFFF',
   surface: '#F8FAFC', // Slate 50

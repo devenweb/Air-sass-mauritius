@@ -81,7 +81,7 @@ export default function SafetyPage() {
     const hero = content?.hero || {
         label: "SAFETY FIRST",
         title: "Your Safety is Our Top Priority",
-        description: "Traveling with Travel Lounge means traveling with peace of mind. As an IATA accredited agency, we adhere to the highest international safety standards."
+        description: "Traveling with Royal Travel Agency means traveling with peace of mind. As an IATA accredited agency, we adhere to the highest international safety standards."
     }
 
     const pillars = content?.pillars || []

@@ -111,7 +111,7 @@ async function main() {
   console.log('Generating full self-contained SQL script...');
 
   let sql = `-- ==========================================\n`;
-  sql += `-- TRAVEL LOUNGE COMPREHENSIVE SYSTEM BACKUP\n`;
+  sql += `-- ROYAL TRAVEL AGENCY COMPREHENSIVE SYSTEM BACKUP\n`;
   sql += `-- Generated: ${new Date().toISOString()}\n`;
   sql += `-- ==========================================\n\n`;
 

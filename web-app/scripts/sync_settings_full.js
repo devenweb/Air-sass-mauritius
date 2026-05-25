@@ -8,7 +8,7 @@ const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 const supabase = createClient(supabaseUrl, supabaseServiceKey);
 
 const generalConfig = {
-  siteTitle: "Travel Lounge",
+  siteTitle: "Royal Travel Agency",
   siteTagline: "Your local and international holiday provider",
   contactEmail: "reservation@travellounge.mu",
   contactPhone: "(+230) 212 4070",
@@ -32,7 +32,7 @@ const generalConfig = {
   navbarCtaLabel: "Plan My Trip",
   navbarCtaHref: "/contact",
   ui_labels: {
-    footer_tagline: "At Travel Lounge, we give you the freedom to either create tailor-made trips with our agents or book your next hotel in Mauritius online in few clicks ! Enjoy safe, secure and memorable holidays with the assistance of our IATA accredited travel agents.",
+    footer_tagline: "At Royal Travel Agency, we give you the freedom to either create tailor-made trips with our agents or book your next hotel in Mauritius online in few clicks ! Enjoy safe, secure and memorable holidays with the assistance of our IATA accredited travel agents.",
     visit_us: "Visit Us",
     contact_us: "Contact Us",
     working_hours: "Working Hours",
@@ -69,7 +69,7 @@ async function syncSettings() {
 
     // 2. Sync seo_config (using site title)
     const seoConfig = {
-        metaTitle: "Travel Lounge | Your Premiere Holiday Provider",
+        metaTitle: "Royal Travel Agency | Your Premiere Holiday Provider",
         metaDescription: "Discover amazing hotels, cruises, tours, and travel experiences worldwide. Your local and international holiday provider in Mauritius.",
         metaKeywords: "travel, mauritius, holidays, hotels, cruises, tours",
         ogImage: "/assets/promo-banner.png"

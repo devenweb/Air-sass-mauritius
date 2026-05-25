@@ -11,7 +11,7 @@ export const metadata: Metadata = {
         canonical: 'https://travellounge.mu/rodrigue-hotels',
     },
     openGraph: {
-        title: 'Authentic Rodrigues Island Stays | Travel Lounge',
+        title: 'Authentic Rodrigues Island Stays | Royal Travel Agency',
         description: 'Peace, serenity, and local charm. Curated selection of the best places to stay in Rodrigues.',
         url: 'https://travellounge.mu/rodrigue-hotels',
         type: 'website',

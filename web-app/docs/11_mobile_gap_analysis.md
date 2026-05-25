@@ -1,5 +1,5 @@
 # Mobile Feature Gap Analysis & Roadmap
-**Project:** Travel Lounge 2026  
+**Project:** Royal Travel Agency 2026  
 **Status:** Audit Complete  
 **Objective:** Achieve full functional and aesthetic parity between Web and Mobile platforms.
 

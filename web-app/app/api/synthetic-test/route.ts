@@ -35,7 +35,7 @@ export async function POST(request: NextRequest) {
         adults: '2',
         children: '0',
         destination: 'Mauritius (Synthetic Test)',
-        message: 'This is an automated synthetic end-to-end test of the Travel Lounge email infrastructure.',
+        message: 'This is an automated synthetic end-to-end test of the Royal Travel Agency email infrastructure.',
         timestamp: new Date().toLocaleString()
     };
 

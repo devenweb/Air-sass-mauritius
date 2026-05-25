@@ -131,7 +131,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
           </button>
           <img 
             src={logo} 
-            alt="Travel Lounge" 
+            alt="Royal Travel Agency" 
             className="h-14 mb-3 object-contain" 
           />
         </div>

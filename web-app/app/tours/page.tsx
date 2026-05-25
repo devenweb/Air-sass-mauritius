@@ -2,13 +2,13 @@ import { Metadata } from 'next'
 import ServiceListing from '@/components/ServiceListing'
 
 export const metadata: Metadata = {
-    title: '🌍 Guided World Tours & Immersive Group Adventures | Travel Lounge',
+    title: '🌍 Guided World Tours & Immersive Group Adventures | Royal Travel Agency',
     description: 'Expertly led group tours across Africa, Asia, and Europe. Join small groups for the journey of a lifetime. Hand-picked itineraries & expert guides.',
     alternates: {
         canonical: 'https://travellounge.mu/tours',
     },
     openGraph: {
-        title: 'Global Adventures & Guided Tours | Travel Lounge',
+        title: 'Global Adventures & Guided Tours | Royal Travel Agency',
         description: 'Immersive group travel experiences led by expert guides.',
         url: 'https://travellounge.mu/tours',
         type: 'website',

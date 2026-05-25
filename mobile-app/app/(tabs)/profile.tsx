@@ -114,7 +114,7 @@ export default function ProfileScreen() {
 
           <View style={styles.footerInfoSection}>
             <Text style={styles.versionText}>
-              TRAVEL LOUNGE ECOSYSTEM v{mobileConfig?.appVersion || '1.1.0'}
+              ROYAL TRAVEL AGENCY ECOSYSTEM v{mobileConfig?.appVersion || '1.1.0'}
             </Text>
             <Text style={styles.copyrightText}>© 2026 Executive Excellence Hub</Text>
           </View>

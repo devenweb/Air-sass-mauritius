@@ -64,7 +64,7 @@ const Settings = () => {
       mailServerLogin: 'noreply@travellounge.mu',
       mailServerPass: 'Cr@nberry@280426',
       mailFromEmail: 'noreply@travellounge.mu',
-      mailFromName: 'Travel Lounge'
+      mailFromName: 'Royal Travel Agency'
     },
     security: {
       twoFactorAuth: false,
@@ -244,7 +244,7 @@ const Settings = () => {
     <div className="animate-in fade-in duration-500 pb-20">
       <div className="mb-6">
         <h1 className="text-2xl font-black text-gray-900">Platform Settings</h1>
-        <p className="text-sm text-gray-400 font-medium">Global configurations for Travel Lounge infrastructure</p>
+        <p className="text-sm text-gray-400 font-medium">Global configurations for Royal Travel Agency infrastructure</p>
       </div>
 
       <div className="flex space-x-2 border-b border-gray-100 mb-8 overflow-x-auto pb-px scrollbar-hide">
@@ -664,7 +664,7 @@ const Settings = () => {
                   <input
                     type="text"
                     name="seo.metaTitle"
-                    placeholder="Travel Lounge - Your Premiere Holiday Provider"
+                    placeholder="Royal Travel Agency - Your Premiere Holiday Provider"
                     className="w-full px-4 py-3 bg-gray-50/50 border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-red-100 focus:border-brand-red transition-all font-bold text-gray-900"
                     value={formData.seo.metaTitle}
                     onChange={handleChange}
@@ -924,7 +924,7 @@ const Settings = () => {
                       <input
                         type="text"
                         name="email.mailFromName"
-                        placeholder="Travel Lounge"
+                        placeholder="Royal Travel Agency"
                         className="w-full px-4 py-3 bg-white border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-100 focus:border-blue-500 transition-all font-bold text-gray-900"
                         value={formData.email.mailFromName}
                         onChange={handleChange}

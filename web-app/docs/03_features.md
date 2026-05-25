@@ -1,6 +1,6 @@
 # 03 Feature Catalog
 
-The Travel Lounge Ecosystem is a comprehensive travel management suite designed for high-fidelity guest experiences and operational excellence.
+The Royal Travel Agency Ecosystem is a comprehensive travel management suite designed for high-fidelity guest experiences and operational excellence.
 
 ## Guest-Facing Features (Web App)
 

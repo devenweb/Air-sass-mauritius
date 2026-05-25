@@ -297,7 +297,7 @@ Marketing Opt-in: ${formData.get('marketing') ? 'Yes' : 'No'}
                 <label className="flex items-start gap-3 cursor-pointer group">
                     <input type="checkbox" name="marketing" className="mt-1 w-4 h-4 border-slate-300 rounded text-black focus:ring-black transition-all" />
                     <span className="text-sm font-medium text-slate-600 group-hover:text-black transition-colors leading-tight">
-                        I want to receive the best marketing offers from Travel Lounge by email
+                        I want to receive the best marketing offers from Royal Travel Agency by email
                     </span>
                 </label>
             </div>

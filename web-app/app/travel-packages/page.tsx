@@ -2,13 +2,13 @@ import { Metadata } from 'next'
 import ServiceListing from '@/components/ServiceListing'
 
 export const metadata: Metadata = {
-    title: '🌍 Exclusive Travel Packages Abroad | Travel Lounge',
+    title: '🌍 Exclusive Travel Packages Abroad | Royal Travel Agency',
     description: 'Explore the world with our curated international travel packages. From Dubai to Turkey, experience seamless luxury and adventure.',
     alternates: {
         canonical: 'https://travellounge.mu/travel-packages',
     },
     openGraph: {
-        title: 'Boutique Travel Abroad Packages | Travel Lounge',
+        title: 'Boutique Travel Abroad Packages | Royal Travel Agency',
         description: 'Luxury international stays and curated global experiences packed into perfect travel packages.',
         url: 'https://travellounge.mu/travel-packages',
         type: 'website',

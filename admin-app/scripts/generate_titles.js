@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Sample travel-related titles for different sections of the Travel Lounge website
+// Sample travel-related titles for different sections of the Royal Travel Agency website
 const titleSets = {
   services: [
     "Luxury Mauritius Getaways",
@@ -55,7 +55,7 @@ function generateTitles(section = 'services', count = 5) {
 
 // Main function to generate and save titles
 function main() {
-  console.log("Generating titles for Travel Lounge admin app...\n");
+  console.log("Generating titles for Royal Travel Agency admin app...\n");
   
   const servicesTitles = generateTitles('services', 5);
   const promotionsTitles = generateTitles('promotions', 5);

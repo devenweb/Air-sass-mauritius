@@ -66,7 +66,7 @@ INSERT INTO content_blocks (page_slug, section_key, content)
 VALUES 
   -- About Page
   ('about', 'hero', '{"title": "Our Story", "subtitle": "Crafting Excellence Since 2014"}'),
-  ('about', 'mission', '{"title": "The Mission", "content": "Travel Lounge Ltd is a one stop travel solutions provider which aims to continuously grow across borders..."}'),
+  ('about', 'mission', '{"title": "The Mission", "content": "Royal Travel Agency is a one stop travel solutions provider which aims to continuously grow across borders..."}'),
   
   -- Safety Page
   ('safety', 'hero', '{"title": "Your Safety is Our Top Priority", "label": "SAFETY FIRST"}'),

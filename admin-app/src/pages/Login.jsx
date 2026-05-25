@@ -38,7 +38,7 @@ const Login = () => {
     <div className="min-h-screen bg-slate-50 flex items-center justify-center p-4 font-sans">
       <div className="max-w-md w-full animate-in fade-in zoom-in duration-500">
         <div className="flex justify-center mb-8">
-          <img src={logo} alt="Travel Lounge" className="h-12 object-contain" />
+          <img src={logo} alt="Royal Travel Agency" className="h-12 object-contain" />
         </div>
         
         <Card className="shadow-2xl shadow-slate-200 border-0 overflow-hidden">
@@ -112,7 +112,7 @@ const Login = () => {
             
             <div className="mt-10 pt-8 border-t border-slate-50 text-center">
               <p className="text-[10px] font-black text-slate-300 uppercase tracking-[0.2em]">
-                Travel Lounge Ecosystem v3.1
+                Royal Travel Agency Ecosystem v3.1
               </p>
             </div>
           </CardContent>

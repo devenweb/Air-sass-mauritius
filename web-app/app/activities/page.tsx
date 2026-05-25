@@ -13,7 +13,7 @@ export const metadata: Metadata = {
         canonical: 'https://travellounge.mu/activities',
     },
     openGraph: {
-        title: 'Top Mauritius Activities & Experiences | Travel Lounge',
+        title: 'Top Mauritius Activities & Experiences | Royal Travel Agency',
         description: 'Your guide to the best adventures and things to do in Mauritius.',
         url: 'https://travellounge.mu/activities',
         type: 'website',

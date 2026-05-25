@@ -275,7 +275,7 @@ export default function TeamPage() {
                                                 <Image
                                                     // src="/assets/team/team3.jpg"
                                                     src={resolveImageUrl((content as any)?.team_image?.image || "/assets/team/team3.jpg")}
-                                                    alt="Travel Lounge Team"
+                                                    alt="Royal Travel Agency Team"
                                                     fill
                                                     unoptimized
                                                     className="object-cover object-top transition-transform duration-700 group-hover:scale-105"

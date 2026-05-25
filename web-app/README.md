@@ -1,4 +1,4 @@
-# Travel Lounge — Luxury Travel Ecosystem
+# Royal Travel Agency — Luxury Travel Ecosystem
 
 > **Unified booking, management, and concierge platform** targeting the premium travel segment. Three interconnected applications sharing one Supabase backend.
 

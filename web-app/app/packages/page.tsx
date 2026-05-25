@@ -8,7 +8,7 @@ export const metadata: Metadata = {
         canonical: 'https://travellounge.mu/packages',
     },
     openGraph: {
-        title: 'Boutique Mauritius Travel Packages | Travel Lounge',
+        title: 'Boutique Mauritius Travel Packages | Royal Travel Agency',
         description: 'Luxury hotel stays and curated island experiences packed into perfect travel packages.',
         url: 'https://travellounge.mu/packages',
         type: 'website',

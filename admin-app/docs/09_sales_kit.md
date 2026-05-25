@@ -1,4 +1,4 @@
-# Travel Lounge Ecosystem: Professional Sales Kit
+# Royal Travel Agency Ecosystem: Professional Sales Kit
 
 > [!NOTE]
 > The canonical Sales Kit is maintained in the **web-app** repository to avoid duplication.
@@ -8,7 +8,7 @@
 
 ## Quick Reference (Admin Context)
 
-The Admin Portal is **The Command Center** of the Travel Lounge ecosystem:
+The Admin Portal is **The Command Center** of the Royal Travel Agency ecosystem:
 
 - **Dynamic Pricing Engine** — Seasonal grid, occupancy tiers (Adult/Teen/Child/Infant), meal plan supplements.
 - **Inventory Guardrails** — Stop-Sell toggles and stock counters prevent overbooking instantly.

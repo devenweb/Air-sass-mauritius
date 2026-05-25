@@ -1,4 +1,4 @@
--- Travel Lounge 2026 - Policies Backup
+-- Royal Travel Agency 2026 - Policies Backup
 -- Generated: 2026-05-08
 
 -- Enable RLS on all tables

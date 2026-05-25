@@ -3,7 +3,7 @@ import BookingPageClient from './BookingPageClient'
 import { Loader2 } from 'lucide-react'
 
 export const metadata = {
-    title: 'Book Your Stay | Travel Lounge',
+    title: 'Book Your Stay | Royal Travel Agency',
     description: 'Complete your booking inquiry for our luxury boutique services.',
 }
 

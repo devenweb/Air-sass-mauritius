@@ -2,7 +2,7 @@ import React from 'react'
 import DestinationListing from '@/components/DestinationListing'
 
 export const metadata = {
-    title: 'International Destinations | Travel Lounge',
+    title: 'International Destinations | Royal Travel Agency',
     description: 'Explore our quality travel packages across Europe, Asia, and the Middle East.',
 }
 

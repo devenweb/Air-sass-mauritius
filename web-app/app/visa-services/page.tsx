@@ -39,7 +39,7 @@ export default function VisaServicesPage() {
     const hero = typedContent?.hero || { 
         badge: "Expert Assistance", 
         title: "Seamless <span class=\"text-red-500 italic\">Visa Solutions.</span>", 
-        description: "Navigating international travel requirements with precision. Travel Lounge provides expert guidance, document vetting, and end-to-end processing for all major global destinations.",
+        description: "Navigating international travel requirements with precision. Royal Travel Agency provides expert guidance, document vetting, and end-to-end processing for all major global destinations.",
         image: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=2070&auto=format&fit=crop" 
     }
 
@@ -59,7 +59,7 @@ export default function VisaServicesPage() {
     }
 
     const sidebar = typedContent?.sidebar || { 
-        title: "Why Trust Travel Lounge?", 
+        title: "Why Trust Royal Travel Agency?", 
         features: [
             { title: "IATA Certified", desc: "Decades of professional excellence in global travel documentation.", icon: "ShieldCheck" },
             { title: "Specialized Desk", desc: "Dedicated experts for USA, Canada, and European visas.", icon: "UserCheck" },

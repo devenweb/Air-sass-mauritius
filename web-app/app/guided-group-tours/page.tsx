@@ -5,7 +5,7 @@ export const dynamic = 'force-dynamic'
 export const revalidate = 0
 
 export const metadata: Metadata = {
-    title: 'Guided Group Tours | Travel Lounge Mauritius',
+    title: 'Guided Group Tours | Royal Travel Agency Mauritius',
     description: 'Join our expertly guided group tours across Mauritius. All-inclusive itineraries, professional local guides, and unforgettable shared experiences.',
 }
 

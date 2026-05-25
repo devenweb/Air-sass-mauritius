@@ -71,7 +71,7 @@ export default function NewsDetailScreen() {
     if (!post) return;
     try {
       await Share.share({
-        message: `${post.title}\n\n${post.excerpt}\n\nRead more on Travel Lounge app.`,
+        message: `${post.title}\n\n${post.excerpt}\n\nRead more on Royal Travel Agency app.`,
         title: post.title,
       });
     } catch (error) {

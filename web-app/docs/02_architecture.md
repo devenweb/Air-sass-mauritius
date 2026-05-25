@@ -1,7 +1,7 @@
 # 02 Architecture & Infrastructure
 
 ## The Triple-App Suite
-Travel Lounge uses a unified backend architecture where three distinct applications consume a single source of truth:
+Royal Travel Agency uses a unified backend architecture where three distinct applications consume a single source of truth:
 
 1.  **Web App (Next.js)**: Optimized for SEO and guest conversion.
 2.  **Admin App (Vite/React)**: Optimized for speed and operational efficiency.

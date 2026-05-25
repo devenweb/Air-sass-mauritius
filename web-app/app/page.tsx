@@ -5,16 +5,16 @@ export const dynamic = 'force-dynamic'
 export const revalidate = 0
 
 export const metadata: Metadata = {
-  title: 'Travel Lounge | Your Gateway to Extraordinary Journeys',
+  title: 'Royal Travel Agency | Your Gateway to Extraordinary Journeys',
   description: 'Experience world-class travel with Mauritius\'s premier boutique agency. Book luxury hotels, exclusive cruises, and bespoke tours with expert local guidance.',
   alternates: {
     canonical: 'https://travellounge.mu',
   },
   openGraph: {
-    title: 'Travel Lounge | Premium Travel Experiences',
+    title: 'Royal Travel Agency | Premium Travel Experiences',
     description: 'Expertly curated travel experiences in Mauritius and beyond.',
     url: 'https://travellounge.mu',
-    siteName: 'Travel Lounge',
+    siteName: 'Royal Travel Agency',
     images: [
       {
         url: '/assets/logo-red-bird.png',
@@ -56,7 +56,7 @@ export default async function HomePage() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Travel Lounge',
+    name: 'Royal Travel Agency',
     url: 'https://travellounge.mu',
     logo: 'https://travellounge.mu/assets/logo-red-bird.png',
     contactPoint: {
@@ -75,7 +75,7 @@ export default async function HomePage() {
   const websiteJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Travel Lounge',
+    name: 'Royal Travel Agency',
     url: 'https://travellounge.mu',
     potentialAction: {
       '@type': 'SearchAction',

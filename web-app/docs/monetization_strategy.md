@@ -1,10 +1,10 @@
-# Travel Lounge Ecosystem: Monetization & Go-to-Market Strategy
+# Royal Travel Agency Ecosystem: Monetization & Go-to-Market Strategy
 
-This document outlines the commercial roadmap, pricing structures, value propositions, and targeted outreach strategies to successfully sell and monetize the Travel Lounge digital ecosystem in the Mauritian and regional travel market.
+This document outlines the commercial roadmap, pricing structures, value propositions, and targeted outreach strategies to successfully sell and monetize the Royal Travel Agency digital ecosystem in the Mauritian and regional travel market.
 
 ---
 
-## 1. The Value Proposition: Why Travel Lounge is a Premium Asset
+## 1. The Value Proposition: Why Royal Travel Agency is a Premium Asset
 
 To sell this ecosystem, you are not selling "code" or "software"; you are selling **operational modernization, transaction velocity, and direct-to-consumer (D2C) independence**. 
 
@@ -25,7 +25,7 @@ To maximize revenue across your prospect list, we recommend offering **three dis
 
 ```mermaid
 graph TD
-    A[Travel Lounge Ecosystem] --> B[Model 1: White-Label Enterprise]
+    A[Royal Travel Agency Ecosystem] --> B[Model 1: White-Label Enterprise]
     A --> C[Model 2: Multi-Tenant SaaS]
     A --> D[Model 3: Inbound Logistics Add-on]
     
@@ -44,7 +44,7 @@ graph TD
 
 ### Model 2: The Multi-Tenant SaaS Platform (Recurring Revenue)
 *   **Target Audience**: Mid-sized retail agencies, specialized consultants, and boutique networks (e.g., Silver Wings, Shamal Travels, Elite Voyage, Etnika Travel, Grand Bay Travel).
-*   **How it Works**: You host the Travel Lounge platform on your own infrastructure as a shared multi-tenant SaaS. Agencies register and get a localized admin workspace, a standard web template connected to their sub-domain, and access to their customer CRM.
+*   **How it Works**: You host the Royal Travel Agency platform on your own infrastructure as a shared multi-tenant SaaS. Agencies register and get a localized admin workspace, a standard web template connected to their sub-domain, and access to their customer CRM.
 *   **Pricing Tiers**:
     *   **Starter ($49/month)**: Basic B2C website templates, CRM for up to 3 agents, manual inquiry intake (no live flight search).
     *   **Growth ($149/month)**: Live flight search (integrating their GoLibé credentials), 365-day seasonal Price Manager, up to 10 agents, automatic transactional email templates.
@@ -110,7 +110,7 @@ I hope this email finds you well.
 
 As the travel landscape in Mauritius shifts toward direct digital conversion and mobile retention, many agencies face the bottleneck of managing complex seasonal pricing grids and B2C channels across multiple disconnected systems.
 
-We have recently finalized the development of "Travel Lounge" — a fully integrated, multi-channel travel booking and management ecosystem designed specifically for the regional market. It includes:
+We have recently finalized the development of "Royal Travel Agency" — a fully integrated, multi-channel travel booking and management ecosystem designed specifically for the regional market. It includes:
 1. An SEO-optimized B2C Booking & Visa Web Portal.
 2. A B2B Admin Console featuring a high-density, 365-day Price Manager (configured to handle adult, teen, and child room occupancy tiers effortlessly).
 3. A Native Customer Mobile Concierge App (iOS/Android) for push marketing and customer engagement.
@@ -123,6 +123,6 @@ Would you be open to a brief 15-minute screen-share session next week to see the
 Best regards,
 
 [Your Name]
-Travel Lounge Platform Lead
+Royal Travel Agency Platform Lead
 [Your Contact Details]
 ```

@@ -244,9 +244,9 @@ const Customers = () => {
                 <div className="flex justify-between items-center">
                     <div>
                         <h1 className="text-3xl font-black text-gray-900 uppercase tracking-tighter">Customer Audit Registry</h1>
-                        <p className="text-sm font-bold text-gray-400 uppercase tracking-widest mt-1">Travel Lounge Official Document | {new Date().toLocaleDateString()}</p>
+                        <p className="text-sm font-bold text-gray-400 uppercase tracking-widest mt-1">Royal Travel Agency Official Document | {new Date().toLocaleDateString()}</p>
                     </div>
-                    <img src={logo} alt="Travel Lounge" className="h-12 object-contain" />
+                    <img src={logo} alt="Royal Travel Agency" className="h-12 object-contain" />
                 </div>
             </div>
 

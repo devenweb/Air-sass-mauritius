@@ -555,7 +555,7 @@ const Reports = () => {
             <p className="text-[10px] font-bold text-gray-400">{new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
           </div>
           <div className="text-right">
-            <p className="text-xs font-black uppercase tracking-widest">Travel Lounge Ltd</p>
+            <p className="text-xs font-black uppercase tracking-widest">Royal Travel Agency Ltd</p>
             <p className="text-[8px] font-bold text-gray-400">Operations Intelligence Unit</p>
           </div>
         </div>

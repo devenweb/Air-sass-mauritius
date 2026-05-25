@@ -5,13 +5,13 @@ export const dynamic = 'force-dynamic'
 export const revalidate = 0
 
 export const metadata: Metadata = {
-    title: '🏝️ Best Local Hotel Deals & Resident Offers Mauritius | Travel Lounge',
+    title: '🏝️ Best Local Hotel Deals & Resident Offers Mauritius | Royal Travel Agency',
     description: 'Exclusive hotel deals and island experiences for Mauritius residents. Discover special staycation rates, day packages and local activity offers.',
     alternates: {
         canonical: 'https://travellounge.mu/local-deals',
     },
     openGraph: {
-        title: 'Boutique Local Resident Deals Mauritius | Travel Lounge',
+        title: 'Boutique Local Resident Deals Mauritius | Royal Travel Agency',
         description: 'Your island, rediscovered. Special rates on the finest luxury resorts and activities for locals.',
         url: 'https://travellounge.mu/local-deals',
         type: 'website',

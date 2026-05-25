@@ -1,6 +1,6 @@
 # Safe Project Isolation Guide
 
-To prevent **Travel Lounge 2026** and other distinct projects from overriding each other, you must maintain strict isolation across four layers: **Directory**, **Vercel**, **Supabase**, and **Environment Variables**.
+To prevent **Royal Travel Agency 2026** and other distinct projects from overriding each other, you must maintain strict isolation across four layers: **Directory**, **Vercel**, **Supabase**, and **Environment Variables**.
 
 ---
 
@@ -21,14 +21,14 @@ vercel link
 ```
 1. It will ask: "Set up [path]?" -> **Yes**
 2. "Link to existing project?" -> **Yes**
-3. Select the **correct** project name (e.g., `travellounge-2026-web` vs other project IDs).
+3. Select the **correct** project name (e.g., `Royal Travel Agency-2026-web` vs other project IDs).
 
 ---
 
 ## 2. Environment Variable Hygiene
 Never hardcode Supabase URLs or Keys. Always use `.env.local` which is excluded from Git.
 
-### **Travel Lounge (.env.local)**
+### **Royal Travel Agency (.env.local)**
 ```env
 NEXT_PUBLIC_SUPABASE_URL=https://tbyudagfjspedeqtlgjv.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=...
@@ -48,7 +48,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=...
 ## 3. Terminal & Workspace Context
 To avoid working in the wrong project by accident:
 
-*   **Distinct VS Code Windows**: Open `Desktop\Travel Lounge 2026` in its own dedicated window.
+*   **Distinct VS Code Windows**: Open `Desktop\Royal Travel Agency 2026` in its own dedicated window.
 *   **Color Theme**: Set a specific VS Code theme for this project (e.g., "Dark") so you instantly know where you are.
 *   **Git Check**: Before any push, run:
     ```bash
@@ -65,7 +65,7 @@ If you use the Supabase CLI, each project needs to be linked to its specific rem
 ```bash
 supabase link --project-ref [PROJECT_ID]
 ```
-*   Travel Lounge: `tbyudagfjspedeqtlgjv`
+*   Royal Travel Agency: `tbyudagfjspedeqtlgjv`
 *   Other Projects: `[OTHER_ID]`
 
 ---

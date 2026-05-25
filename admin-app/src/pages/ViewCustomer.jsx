@@ -204,9 +204,9 @@ const ViewCustomer = () => {
                 <div className="flex justify-between items-start">
                     <div>
                         <h1 className="text-4xl font-black text-gray-900 uppercase tracking-tighter">Customer Dossier</h1>
-                        <p className="text-sm font-bold text-gray-400 uppercase tracking-widest mt-1">Travel Lounge Confidential Record | Generated: {new Date().toLocaleDateString()}</p>
+                        <p className="text-sm font-bold text-gray-400 uppercase tracking-widest mt-1">Royal Travel Agency Confidential Record | Generated: {new Date().toLocaleDateString()}</p>
                     </div>
-                    <img src={logo} alt="Travel Lounge" className="h-14 object-contain" />
+                    <img src={logo} alt="Royal Travel Agency" className="h-14 object-contain" />
                 </div>
             </div>
 

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-    title: 'Cruise Holidays | Travel Lounge Mauritius',
+    title: 'Cruise Holidays | Royal Travel Agency Mauritius',
     description: 'Set sail for amazing destinations with our trusted cruise partners. Browse our selection of cruise packages.',
 }
 

@@ -37,8 +37,8 @@ INSERT INTO public.email_templates (name, subject, body, description)
 VALUES 
 (
     'booking_confirmation', 
-    'Booking Confirmation: {{booking_reference}} - Travel Lounge', 
-    '<h1>Booking Confirmed</h1><p>Dear {{customer_name}},</p><p>Your booking for <strong>{{service_name}}</strong> has been received and is being processed.</p><p>Reference: <strong>{{booking_reference}}</strong></p><p>{{label_start}}: {{check_in}}</p><p>Total: {{total_price}}</p><p>Thank you for choosing Travel Lounge.</p>', 
+    'Booking Confirmation: {{booking_reference}} - Royal Travel Agency', 
+    '<h1>Booking Confirmed</h1><p>Dear {{customer_name}},</p><p>Your booking for <strong>{{service_name}}</strong> has been received and is being processed.</p><p>Reference: <strong>{{booking_reference}}</strong></p><p>{{label_start}}: {{check_in}}</p><p>Total: {{total_price}}</p><p>Thank you for choosing Royal Travel Agency.</p>', 
     'Sent to the customer immediately after a booking request is submitted.'
 ),
 (
@@ -49,7 +49,7 @@ VALUES
 ),
 (
     'inquiry_received', 
-    'Inquiry Received: {{service_name}} - Travel Lounge', 
+    'Inquiry Received: {{service_name}} - Royal Travel Agency', 
     '<h1>Thank You</h1><p>Dear {{customer_name}},</p><p>We have received your inquiry regarding <strong>{{service_name}}</strong>.</p><p>Our team will contact you shortly with a personalized quote.</p>', 
     'Sent to the customer after a general inquiry.'
 )

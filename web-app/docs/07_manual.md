@@ -1,6 +1,6 @@
-# Travel Lounge Admin Help Center
+# Royal Travel Agency Admin Help Center
 
-This section offers features and guides to help you keep your Travel Lounge ecosystem healthy and optimized.
+This section offers features and guides to help you keep your Royal Travel Agency ecosystem healthy and optimized.
 
 ---
 

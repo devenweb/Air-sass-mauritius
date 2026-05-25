@@ -214,7 +214,7 @@ export default function Footer() {
                 <div className="mt-12 pt-8 pb-4 border-t border-slate-900 flex flex-col items-center justify-center text-center">
                     <div className="flex flex-col items-center text-slate-500">
                         <p className="font-black tracking-[0.2em] text-[11px] uppercase m-0 p-0 leading-none">
-                            © {new Date().getFullYear()} {config?.siteTitle || 'Travel Lounge'}. All Rights Reserved. | Since 1995
+                            © {new Date().getFullYear()} {config?.siteTitle || 'Royal Travel Agency'}. All Rights Reserved. | Since 1995
                         </p>
                         <p className="text-[9px] font-bold tracking-[0.15em] uppercase opacity-40 m-0 p-0 mt-2 leading-none">
                             Created and Produced by <a href="https://wa.me/23058169420" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors cursor-pointer">Deven</a>

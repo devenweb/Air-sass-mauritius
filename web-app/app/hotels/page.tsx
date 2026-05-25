@@ -5,13 +5,13 @@ export const dynamic = 'force-dynamic'
 export const revalidate = 0
 
 export const metadata: Metadata = {
-    title: '🇲🇺 Best Luxury Hotels & Beachfront Resorts in Mauritius | Travel Lounge',
+    title: '🇲🇺 Best Luxury Hotels & Beachfront Resorts in Mauritius | Royal Travel Agency',
     description: 'Discover the top luxury hotels in Mauritius. Book exclusive deals at world-class resorts with local island experts. Low Price Guarantee & Free Concierge.',
     alternates: {
         canonical: 'https://travellounge.mu/hotels',
     },
     openGraph: {
-        title: 'Luxury Mauritius Hotels & Resorts | Travel Lounge',
+        title: 'Luxury Mauritius Hotels & Resorts | Royal Travel Agency',
         description: 'Discover world-class hospitality and stunning beachfront resorts in Mauritius.',
         url: 'https://travellounge.mu/hotels',
         type: 'website',

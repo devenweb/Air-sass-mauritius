@@ -1,4 +1,4 @@
-# Travel Lounge Ecosystem: Professional Sales Kit
+# Royal Travel Agency Ecosystem: Professional Sales Kit
 
 > [!NOTE]
 > The canonical Sales Kit is maintained in the **web-app** repository to avoid duplication.
@@ -8,7 +8,7 @@
 
 ## Quick Reference (Mobile Context)
 
-The Mobile App is **The Pocket Concierge** of the Travel Lounge ecosystem:
+The Mobile App is **The Pocket Concierge** of the Royal Travel Agency ecosystem:
 
 - **On-the-Go Discovery** — Glassmorphism-enhanced listing pages with floating CTAs for immediate WhatsApp/Email inquiry.
 - **Hero Carousel** — Reanimated-driven banners with actionable navigation to destination routes.

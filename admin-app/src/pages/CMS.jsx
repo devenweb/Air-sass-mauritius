@@ -119,7 +119,7 @@ const DEFAULT_CONTENT = {
         section_1_services: { label: 'Our Services', title: 'Curated <span>Travel</span> Experiences', description: 'Explore our hand-picked collection of global destinations and bespoke island discoveries.' },
     },
     about: {
-        section_1_hero: { badge: 'Since 1995', title: 'Defining the Art of <br/> Boutique Travel', description: "We don't just book trips; we craft legacies. Travel Lounge is Mauritius's premier gateway to extraordinary global experiences and authentic island discoveries." },
+        section_1_hero: { badge: 'Since 1995', title: 'Defining the Art of <br/> Boutique Travel', description: "We don't just book trips; we craft legacies. Royal Travel Agency is Mauritius's premier gateway to extraordinary global experiences and authentic island discoveries." },
         section_2_identity: { subtitle: "Who we are", title: "Mauritius's Most <br/> Trusted Travel Experts", description: "Experience the pinnacle of travel excellence with Travel Lounge. Our dedicated team and global network ensure your journey is seamless and extraordinary.", quote: "Our mission is to transform every journey into a masterpiece of memories.", stats_label: "Years of Excellence", stats_value: "29+", image_corporate: "/assets/about/corporate.png", image_leisure: "/assets/about/leisure.png" }
     },
     contact: {
@@ -169,7 +169,7 @@ const DEFAULT_CONTENT = {
         hero: { 
             badge: "Expert Assistance", 
             title: "Seamless <span class=\"text-red-500 italic\">Visa Solutions.</span>", 
-            description: "Navigating international travel requirements with precision. Travel Lounge provides expert guidance, document vetting, and end-to-end processing for all major global destinations.", 
+            description: "Navigating international travel requirements with precision. Royal Travel Agency provides expert guidance, document vetting, and end-to-end processing for all major global destinations.", 
             image: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=2070&auto=format&fit=crop" 
         },
         steps: { 
@@ -188,7 +188,7 @@ const DEFAULT_CONTENT = {
             secondary_label: "View All Destinations" 
         },
         sidebar: { 
-            title: "Why Trust Travel Lounge?", 
+            title: "Why Trust Royal Travel Agency?", 
             features: [
                 { title: "IATA Certified", desc: "Decades of professional excellence in global travel documentation.", icon: "ShieldCheck" },
                 { title: "Specialized Desk", desc: "Dedicated experts for USA, Canada, and European visas.", icon: "UserCheck" },

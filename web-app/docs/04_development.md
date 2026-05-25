@@ -1,7 +1,7 @@
 # 04 Development & Contribution Guide
 
 ## Getting Started
-The Travel Lounge ecosystem is optimized for local development across three core workspaces.
+The Royal Travel Agency ecosystem is optimized for local development across three core workspaces.
 
 ### Prerequisites
 - **Node.js**: 18+ (LTS recommended)

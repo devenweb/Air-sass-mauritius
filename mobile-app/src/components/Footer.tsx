@@ -230,7 +230,7 @@ const Footer = () => {
         <View style={styles.bottomBorder} />
         <View style={styles.copyrightContainer}>
           <Text style={styles.copyrightText}>
-            © {new Date().getFullYear()} {settings?.siteTitle || 'Travel Lounge'}. All Rights Reserved. | Since 1995
+            © {new Date().getFullYear()} {settings?.siteTitle || 'Royal Travel Agency'}. All Rights Reserved. | Since 1995
           </Text>
           <Text style={styles.creditText}>
             Created and Produced by Deven

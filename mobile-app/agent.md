@@ -1,12 +1,12 @@
 ---
 name: repository-agent
-description: Agent operating guide for the Travel Lounge Mobile App.
+description: Agent operating guide for the Royal Travel Agency Mobile App.
 ---
 
 # Agent — Mobile App
 
 ## Project Context
-This is the **Travel Lounge Mobile App** — an Expo SDK 52 + React Native application.
+This is the **Royal Travel Agency Mobile App** — an Expo SDK 52 + React Native application.
 - **Framework**: Expo SDK 52 (Expo Router v3)
 - **Styling**: NativeWind (Tailwind CSS for Native)
 - **UI**: React Native Paper + Lucide Icons

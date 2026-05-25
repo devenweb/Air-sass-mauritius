@@ -154,7 +154,7 @@ export default function ServicesPage() {
                 <div className="container mx-auto px-6">
                     <div className="bg-white rounded-[3rem] p-12 md:p-10 shadow-xl flex flex-col lg:flex-row items-center gap-12">
                         <div className="lg:w-1/3">
-                            <h3 className="text-3xl font-black text-slate-900 mb-6">The Travel Lounge Promise</h3>
+                            <h3 className="text-3xl font-black text-slate-900 mb-6">The Royal Travel Agency Promise</h3>
                             <p className="text-slate-500 leading-relaxed">
                                 We believe travel should be more than just a destination; it should be an enriching experience that transforms your perspective.
                             </p>

@@ -1,4 +1,4 @@
-# Travel Lounge: Strategic Admin Portal
+# Royal Travel Agency: Strategic Admin Portal
 
 The mission control for service providers, allowing real-time management of inventories, bookings, and site settings.
 

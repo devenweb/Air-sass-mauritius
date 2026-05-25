@@ -2,7 +2,7 @@ import React from 'react'
 import DestinationListing from '@/components/DestinationListing'
 
 export const metadata = {
-    title: 'North Coast Mauritius - Vibrant & Beautiful | Travel Lounge',
+    title: 'North Coast Mauritius - Vibrant & Beautiful | Royal Travel Agency',
     description: 'Explore hotels and activities in the North of Mauritius, home to Grand Baie.',
 }
 

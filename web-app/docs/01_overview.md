@@ -1,7 +1,7 @@
 # 01 Overview & Ecosystem
 
 ## Project Mission
-The **Travel Lounge Ecosystem** is a premium, high-performance travel management platform. It consists of a triple-application suite (Web, Admin, Mobile) designed to provide a "3-Click" conversion experience for guests and 100% operational visibility for administrators. All UI elements adhere to **Boutique Elite Standards**, characterized by high-fidelity aesthetics, vibrant **Red-600** branding, and smooth micro-animations.
+The **Royal Travel Agency Ecosystem** is a premium, high-performance travel management platform. It consists of a triple-application suite (Web, Admin, Mobile) designed to provide a "3-Click" conversion experience for guests and 100% operational visibility for administrators. All UI elements adhere to **Boutique Elite Standards**, characterized by high-fidelity aesthetics, vibrant **Red-600** branding, and smooth micro-animations.
 
 ---
 

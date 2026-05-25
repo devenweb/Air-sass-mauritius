@@ -11,7 +11,7 @@ const supabase = createClient(supabaseUrl, supabaseKey);
 const TEMPLATE_WRAPPER = (header: string, content: string) => `
 <div style="font-family: sans-serif; max-width: 650px; margin: 20px auto; border: 1px solid #eee; border-radius: 12px; overflow: hidden; color: #333; line-height: 1.5;">
     <div style="padding: 30px; text-align: center; background-color: #fff; border-bottom: 4px solid #e11d48;">
-        <img src="{{logo_url}}" alt="Travel Lounge" style="height: 60px; width: auto;" />
+        <img src="{{logo_url}}" alt="Royal Travel Agency" style="height: 60px; width: auto;" />
     </div>
     
     <div style="padding: 40px; background-color: #ffffff;">
@@ -21,7 +21,7 @@ const TEMPLATE_WRAPPER = (header: string, content: string) => `
         
         <div style="padding-top: 30px; border-top: 1px solid #f0f0f0; text-align: center;">
             <p style="font-size: 14px; margin-bottom: 5px; color: #888;">Best Regards,</p>
-            <p style="font-size: 16px; font-weight: 800; color: #000; margin-top: 0;">The Travellounge Team</p>
+            <p style="font-size: 16px; font-weight: 800; color: #000; margin-top: 0;">The Royal Travel Agency Team</p>
             <p style="font-size: 12px; color: #aaa; margin-top: 20px;">info@travellounge.mu | Since 1995</p>
         </div>
     </div>
@@ -107,7 +107,7 @@ async function updateTemplates() {
         .from('email_templates')
         .update({
             body: TEMPLATE_WRAPPER('{{service_type_label}} : #{{booking_id}}', CUSTOMER_CONTENT),
-            subject: '{{service_type_label}} : #{{booking_id}} - TRAVELLOUNGE 🌴'
+            subject: '{{service_type_label}} : #{{booking_id}} - ROYAL TRAVEL AGENCY 🌴'
         })
         .eq('name', 'booking_confirmation');
 

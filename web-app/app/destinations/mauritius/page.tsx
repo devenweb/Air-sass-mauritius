@@ -2,7 +2,7 @@ import React from 'react'
 import DestinationListing from '@/components/DestinationListing'
 
 export const metadata = {
-    title: 'Mauritius - Discover the Island | Travel Lounge',
+    title: 'Mauritius - Discover the Island | Royal Travel Agency',
     description: 'Explore our curated list of hotels, activities, and packages in Mauritius.',
     alternates: {
         canonical: 'https://travellounge.mu/destinations/mauritius',

@@ -180,7 +180,7 @@ export default function ServiceDetailScreen() {
             <TouchableOpacity 
               onPress={() => {
                 if (service) {
-                  Share.share({ message: `Check out ${service.name} on Travel Lounge` });
+                  Share.share({ message: `Check out ${service.name} on Royal Travel Agency` });
                 }
               }} 
               style={styles.iconButton}

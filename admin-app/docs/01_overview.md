@@ -1,7 +1,7 @@
 # 01 Overview & Ecosystem
 
 ## Project Mission
-The **Travel Lounge Admin Portal** is the strategic hub for service providers and administrators. It provides real-time control over the entire 11/10 Elite travel ecosystem, enabling the management of inventories, bookings, and global site settings.
+The **Royal Travel Agency Admin Portal** is the strategic hub for service providers and administrators. It provides real-time control over the entire 11/10 Elite travel ecosystem, enabling the management of inventories, bookings, and global site settings.
 
 ---
 

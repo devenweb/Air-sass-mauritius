@@ -58,7 +58,7 @@ export default function PrivacyPolicyPage() {
                             Privacy <span className="text-red-600">Policy</span>
                         </h1>
                         <p className="text-lg md:text-xl text-slate-400 font-medium leading-relaxed">
-                            At Travel Lounge, we are committed to protecting your personal data and your privacy. This policy outlines how we handle your information.
+                            At Royal Travel Agency, we are committed to protecting your personal data and your privacy. This policy outlines how we handle your information.
                         </p>
                     </motion.div>
                 </div>
@@ -168,4 +168,4 @@ export default function PrivacyPolicyPage() {
             </div>
         </div>
     )
-}
+}

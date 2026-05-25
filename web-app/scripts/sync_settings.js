@@ -5,7 +5,7 @@ dotenv.config({ path: 'c:/Users/deven/Desktop/web-app/.env.local' });
 const supabase = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL, process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
 
 const generalConfig = {
-  siteTitle: "Travel Lounge",
+  siteTitle: "Royal Travel Agency",
   contactEmail: "reservation@travellounge.mu",
   contactPhone: "(+230) 212 4070",
   whatsappNumber1: "+230 5509 7702",
@@ -21,7 +21,7 @@ const generalConfig = {
   showFooterMobile: true,
   logoUrl: "/assets/logo-red-bird.png",
   ui_labels: {
-    footer_tagline: "At Travel Lounge, we give you the freedom to either create tailor-made trips with our agents or book your next hotel in Mauritius online in few clicks ! Enjoy safe, secure and memorable holidays with the assistance of our IATA accredited travel agents.",
+    footer_tagline: "At Royal Travel Agency, we give you the freedom to either create tailor-made trips with our agents or book your next hotel in Mauritius online in few clicks ! Enjoy safe, secure and memorable holidays with the assistance of our IATA accredited travel agents.",
     visit_us: "Visit Us",
     contact_us: "Contact Us",
     working_hours: "Working Hours",

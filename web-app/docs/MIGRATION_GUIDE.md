@@ -1,11 +1,11 @@
 # WordPress to New Web App Migration Guide
 
 > [!NOTE]
-> **Migration Status: COMPLETE** — The WordPress-to-TravelLounge migration was completed in early 2026.
+> **Migration Status: COMPLETE** — The WordPress-to-Royal Travel Agency migration was completed in early 2026.
 > This document is kept for reference and historical context only. A copy is also preserved in `docs/archive/MIGRATION_GUIDE.md`.
 > The migration scripts (`wordpress-migration.ts`, `woocommerce-migration.ts`) remain in `scripts/` as read-only references.
 
-This guide explains how to migrate data from a WordPress website to the Travel Lounge web application.
+This guide explains how to migrate data from a WordPress website to the Royal Travel Agency web application.
 
 ## Prerequisites
 

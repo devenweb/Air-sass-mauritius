@@ -2,7 +2,7 @@ import React from 'react'
 import DestinationListing from '@/components/DestinationListing'
 
 export const metadata = {
-    title: 'Rodrigues - The Authentic Escape | Travel Lounge',
+    title: 'Rodrigues - The Authentic Escape | Royal Travel Agency',
     description: 'Discover the hidden gem of the Indian Ocean. Authenticity, nature, and tranquility.',
 }
 

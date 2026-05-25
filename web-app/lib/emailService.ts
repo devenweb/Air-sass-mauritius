@@ -2,7 +2,7 @@ import nodemailer from 'nodemailer'
 import { createClient } from './supabaseServer'
 
 /**
- * Shared Email Service for Travellounge Ecosystem
+ * Shared Email Service for Royal Travel Agency Ecosystem
  * Handles SMTP transporter initialization and template rendering
  */
 
@@ -29,7 +29,7 @@ async function getEmailSettings() {
             user: (emailConfig.mailServerLogin || process.env.MAIL_SERVER_LOGIN || '').trim(),
             pass: (emailConfig.mailServerPass || process.env.MAIL_SERVER_PASS || '').trim(),
             fromEmail: (emailConfig.mailFromEmail || process.env.MAIL_FROM_EMAIL || 'noreply@travellounge.mu').trim(),
-            fromName: (emailConfig.mailFromName || process.env.MAIL_FROM_NAME || 'Travel Lounge').trim(),
+            fromName: (emailConfig.mailFromName || process.env.MAIL_FROM_NAME || 'Royal Travel Agency').trim(),
             logoUrl: generalConfig.logoUrl || 'https://travellounge.mu/assets/logo.png',
             address: generalConfig.contactAddress || 'Mauritius',
             phone: generalConfig.contactPhone || '+230 5509 7702'
@@ -42,7 +42,7 @@ async function getEmailSettings() {
             user: (process.env.MAIL_SERVER_LOGIN || '').trim(),
             pass: (process.env.MAIL_SERVER_PASS || '').trim(),
             fromEmail: (process.env.MAIL_FROM_EMAIL || 'noreply@travellounge.mu').trim(),
-            fromName: (process.env.MAIL_FROM_NAME || 'Travel Lounge').trim(),
+            fromName: (process.env.MAIL_FROM_NAME || 'Royal Travel Agency').trim(),
             logoUrl: 'https://travellounge.mu/assets/logo.png',
             address: 'Mauritius',
             phone: '+230 5509 7702'
@@ -122,7 +122,7 @@ function wrapProfessionalTemplate(content: string, vars: any) {
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Travel Lounge</title>
+    <title>Royal Travel Agency</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <style type="text/css">
         body { margin: 0; padding: 0; min-width: 100%; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #f4f4f7; color: #51545E; }
@@ -149,7 +149,7 @@ function wrapProfessionalTemplate(content: string, vars: any) {
     <center class="wrapper">
         <div class="header">
             <a href="https://travellounge.mu">
-                <img src="${logoUrl}" alt="Travel Lounge" style="max-height: 50px; width: auto;" />
+                <img src="${logoUrl}" alt="Royal Travel Agency" style="max-height: 50px; width: auto;" />
             </a>
         </div>
         <table class="main">
@@ -193,7 +193,7 @@ export async function sendTemplatedEmail({ to, cc, templateName, variables }: Em
         }
 
         // 2. Process Subject & Body
-        let subject = template.subject || 'Travel Lounge Notification';
+        let subject = template.subject || 'Royal Travel Agency Notification';
         let bodyContent = template.body || '';
 
         // Helper to escape HTML for security in email body

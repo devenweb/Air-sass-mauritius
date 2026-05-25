@@ -6,7 +6,7 @@ import { resolveImageUrl } from '@/lib/image';
 import { Plane, Globe, Shield, CreditCard, Clock, MapPin } from 'lucide-react';
 
 export const metadata = {
-  title: 'Flight Bookings | Travel Lounge',
+  title: 'Flight Bookings | Royal Travel Agency',
   description: 'Book your international and domestic flights with Travel Lounge. We offer the best rates and excellent service for all your travel needs.',
 };
 

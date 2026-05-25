@@ -394,7 +394,7 @@ export default function HomeClient() {
               <div className="aspect-[4/3] relative rounded-[2rem] overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,0,0,0.15)]">
                  <Image
                   src={resolveImageUrl(settings?.experienceSectionImage, "/assets/placeholders/hero-hotel.png")}
-                  alt={`${labels.accredited_title || 'Accredited and Awarded Experience'} - Travel Lounge Mauritius`}
+                  alt={`${labels.accredited_title || 'Accredited and Awarded Experience'} - Royal Travel Agency Mauritius`}
                   fill
                   className="object-cover"
                 />

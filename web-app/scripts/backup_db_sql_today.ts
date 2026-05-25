@@ -114,7 +114,7 @@ async function generateBackup() {
   console.log(`🚀 Generating SQL database backup to ${backupDir}...`);
   
   let sql = `-- ==========================================\n`;
-  sql += `-- TRAVEL LOUNGE DATABASE SQL BACKUP\n`;
+  sql += `-- ROYAL TRAVEL AGENCY DATABASE SQL BACKUP\n`;
   sql += `-- Generated: ${new Date().toISOString()}\n`;
   sql += `-- ==========================================\n\n`;
   sql += `SET session_replication_role = 'replica';\n\n`;

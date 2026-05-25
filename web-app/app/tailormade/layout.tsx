@@ -2,7 +2,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Tailor-Made Travel | Travel Lounge',
+  title: 'Tailor-Made Travel | Royal Travel Agency',
   description: 'Design your dream vacation with Travel Lounge. We specialize in bespoke, personalized itineraries tailored to your unique preferences.',
 };
 

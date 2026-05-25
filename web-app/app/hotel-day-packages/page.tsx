@@ -11,7 +11,7 @@ export const metadata: Metadata = {
         canonical: 'https://travellounge.mu/hotel-day-packages',
     },
     openGraph: {
-        title: 'Premium Mauritius Resort Day Passes | Travel Lounge',
+        title: 'Premium Mauritius Resort Day Passes | Royal Travel Agency',
         description: 'Experience luxury resorts for a day. All-inclusive lunch, pool access, and activities.',
         url: 'https://travellounge.mu/hotel-day-packages',
         type: 'website',

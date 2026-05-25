@@ -12,7 +12,7 @@ const termsSections = [
     },
     {
         title: "Services & Bookings",
-        content: "Travel Lounge acts as an agent for third-party service providers (hotels, tour operators, etc.). While we facilitate the booking, the ultimate service delivery is the responsibility of the provider. All bookings are subject to the specific terms and conditions of the respective provider, including cancellation policies."
+        content: "Royal Travel Agency acts as an agent for third-party service providers (hotels, tour operators, etc.). While we facilitate the booking, the ultimate service delivery is the responsibility of the provider. All bookings are subject to the specific terms and conditions of the respective provider, including cancellation policies."
     },
     {
         title: "Pricing & Payment",
@@ -20,7 +20,7 @@ const termsSections = [
     },
     {
         title: "Cancellations & Refunds",
-        content: "Cancellation policies vary by service provider. Travel Lounge may charge an administrative fee for processed cancellations. Refunds, if applicable, will be processed back to the original payment method within a reasonable timeframe, subject to provider approval."
+        content: "Cancellation policies vary by service provider. Royal Travel Agency may charge an administrative fee for processed cancellations. Refunds, if applicable, will be processed back to the original payment method within a reasonable timeframe, subject to provider approval."
     },
     {
         title: "User Responsibilities",
@@ -28,11 +28,11 @@ const termsSections = [
     },
     {
         title: "Intellectual Property",
-        content: "The content on this website, including text, graphics, logos, and software, is the property of Travel Lounge Ltd and is protected by copyright and intellectual property laws. You may not reproduce or distribute any content without our prior written consent."
+        content: "The content on this website, including text, graphics, logos, and software, is the property of Royal Travel Agency Ltd and is protected by copyright and intellectual property laws. You may not reproduce or distribute any content without our prior written consent."
     },
     {
         title: "Limitation of Liability",
-        content: "Travel Lounge shall not be liable for any direct, indirect, or consequential losses arising from the use of our services or the failure of any third-party provider to deliver services as described. Our total liability is limited to the amount paid for the specific booking in question."
+        content: "Royal Travel Agency shall not be liable for any direct, indirect, or consequential losses arising from the use of our services or the failure of any third-party provider to deliver services as described. Our total liability is limited to the amount paid for the specific booking in question."
     },
     {
         title: "Governing Law",

@@ -418,7 +418,7 @@ export const BookingModal = ({ visible, onDismiss, service, onSubmit, initialDat
     <View style={styles.successWrapper}>
       <CheckCircle size={80} color={Colors.success} style={{ marginBottom: 20 }} />
       <Text style={styles.successTitle}>Request Dispatched</Text>
-      <Text style={styles.successSub}>Thank you for choosing Travel Lounge Elite. Our concierge team will reach out shortly.</Text>
+      <Text style={styles.successSub}>Thank you for choosing Royal Travel Agency Elite. Our concierge team will reach out shortly.</Text>
       
       <Surface style={styles.reportCard}>
         <View style={styles.reportRow}>

@@ -82,7 +82,7 @@ export function useBrand() {
   
     return {
     isLeisure,
-    brandName: isLeisure ? 'Travel Lounge Leisure & Tours' : 'Travel Lounge',
+    brandName: isLeisure ? 'Royal Leisure & Tours' : 'Royal Travel Agency',
     logo: isLeisure ? '/assets/logo-leisure.png' : '/assets/logo.png',
     email: isLeisure ? 'inbound@travellounge.mu' : 'reservation@travellounge.mu',
     whatsapp: isLeisure ? '23055097702' : '23059407711',

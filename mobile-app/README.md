@@ -1,6 +1,6 @@
-# Travel Lounge: Elite Mobile Application
+# Royal Travel Agency: Elite Mobile Application
 
-A High-Engagement Concierge Interface for the Travel Lounge ecosystem, built with Expo and React Native.
+A High-Engagement Concierge Interface for the Royal Travel Agency ecosystem, built with Expo and React Native.
 
 ---
 

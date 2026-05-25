@@ -36,7 +36,7 @@ export async function generateMetadata(): Promise<Metadata> {
     const seo = data?.value as {metaTitle?: string, metaDescription?: string, metaKeywords?: string, ogImage?: string} || {}
 
     return {
-      title: seo.metaTitle || 'Travel Lounge | Your Gateway to Extraordinary Journeys',
+      title: seo.metaTitle || 'Royal Travel Agency | Your Gateway to Extraordinary Journeys',
       description: seo.metaDescription || 'Discover amazing hotels, cruises, tours, and travel experiences worldwide',
       keywords: seo.metaKeywords || 'travel, mauritius, holidays',
       metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://travellounge.mu'),
@@ -45,7 +45,7 @@ export async function generateMetadata(): Promise<Metadata> {
         apple: '/assets/logo-red-bird.png',
       },
       openGraph: {
-        title: seo.metaTitle || 'Travel Lounge',
+        title: seo.metaTitle || 'Royal Travel Agency',
         description: seo.metaDescription,
         images: seo.ogImage ? [{ url: seo.ogImage }] : [{ url: '/assets/logo-red-bird.png' }],
         type: 'website',
@@ -59,7 +59,7 @@ export async function generateMetadata(): Promise<Metadata> {
     }
   } catch {
     return {
-      title: 'Travel Lounge | Your Gateway to Extraordinary Journeys',
+      title: 'Royal Travel Agency | Your Gateway to Extraordinary Journeys',
       description: 'Discover amazing hotels, cruises, tours, and travel experiences worldwide',
       icons: {
         icon: '/assets/logo-red-bird.png',
@@ -97,7 +97,7 @@ export default async function RootLayout({
   const localBusinessJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    name: 'Travel Lounge',
+    name: 'Royal Travel Agency',
     image: 'https://travellounge.mu/assets/logo-red-bird.png',
     '@id': 'https://travellounge.mu',
     url: 'https://travellounge.mu',
@@ -147,7 +147,7 @@ export default async function RootLayout({
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://qhrmzuwawmuxrnaqznva.supabase.co" />
-        {/* Version: 1.1.1 - Travel Lounge 2026 Restore (2026-05-14) */}
+        {/* Version: 1.1.1 - Royal Travel Agency 2026 Restore (2026-05-14) */}
       </head>
       <body className={font.className}>
           <ThemeProvider attribute="class" defaultTheme="light">
